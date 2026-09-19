@@ -1,0 +1,597 @@
+# KNX Project Inspection
+
+- Source: Burooj_Square_Villa_ORIGINAL_BACKUP_20260917_172404.knxproj
+- Size: 16,361,851 bytes
+- Archive XML files: 21
+- Project-specific XMLs extracted: 3
+- Detected ToolVersion values: 6.2.7302.0
+- Encrypted project container detected: False
+
+## Archive entries
+- P-07BC/UserFiles/M0071-A00CC.etsapp — 2,886,716 bytes
+- P-07BC/project.xml — 55,914 bytes
+- P-07BC/0.xml — 1,221,621 bytes
+- M-0071/Hardware.xml — 29,574 bytes
+- M-0071/M-0071_A-1130-6D-1CED.xml — 240,902 bytes
+- M-0071/M-0071_A-1251-11-A621.xml — 6,222,318 bytes
+- M-0071/M-0071_A-3351-20-2390.xml — 14,865,376 bytes
+- M-0071/M-0071_A-44F1-15-B839.xml — 5,667,827 bytes
+- M-0071/M-0071_A-4951-1C-7327.xml — 42,279,574 bytes
+- M-0071/M-0071_A-4981-1C-94CF.xml — 42,291,033 bytes
+- M-0071/M-0071_A-4991-1C-AED6.xml — 42,291,029 bytes
+- M-0071/M-0071_A-4B51-1C-84FC.xml — 42,291,055 bytes
+- M-0071/M-0071_A-51E1-31-32AF.xml — 6,450,359 bytes
+- M-0071/M-0071_A-5341-14-E0A0.xml — 3,607,079 bytes
+- M-0071/M-0071_A-5351-14-74E3.xml — 3,607,419 bytes
+- M-0071/M-0071_A-5361-14-BD97.xml — 3,611,562 bytes
+- M-0071/M-0071_A-5521-37-37C5.xml — 5,284,857 bytes
+- M-0071/M-0071_A-5931-18-D12C.xml — 2,982,297 bytes
+- M-0071/M-0071_A-5941-18-10EC.xml — 2,982,303 bytes
+- M-0071/M-0071_A-6391-11-346B.xml — 5,021,974 bytes
+- M-0071/Baggages.xml — 12,644 bytes
+- M-0071/Baggages/Z70V2_3_7/icons.zip — 367,584 bytes
+- M-0071/Baggages/Z70V2_3_7/Solar_no_battery.png — 36,402 bytes
+- M-0071/Baggages/Z70V2_3_7/Solar_and_battery.png — 39,464 bytes
+- M-0071/Baggages/Z70V2_3_7/No_solar_no_battery.png — 26,519 bytes
+- M-0071/Baggages/Z35V2_3_1/icons.zip — 188,688 bytes
+- M-0071/Baggages/Tecla55X4_1_8/SquareFlat-6BV_buttons.png — 21,298 bytes
+- M-0071/Baggages/Tecla55X4_1_8/SquareFlat-6BH_buttons.png — 20,893 bytes
+- M-0071/Baggages/Tecla55X4_1_8/SquareFlat-2BV_buttons.png — 16,120 bytes
+- M-0071/Baggages/Tecla55X4_1_8/SquareFlat-1B_buttons.png — 16,715 bytes
+- M-0071/Baggages/Tecla55X4_1_8/SquareFlat-4B_buttons.png — 19,825 bytes
+- M-0071/Baggages/Tecla55X4_1_8/SquareFlat-2BH_buttons.png — 16,468 bytes
+- M-0071/Baggages/Tecla55X4_1_8/Tecla_XL_Flat_XL-8BV_buttons.png — 64,556 bytes
+- M-0071/Baggages/Tecla55X4_1_8/Tecla_XL_Flat_XL-8BH_buttons.png — 66,375 bytes
+- M-0071/Baggages/Tecla55X4_1_8/Tecla_XL_Flat_XL-10BV_buttons.png — 75,722 bytes
+- M-0071/Baggages/Tecla55X4_1_8/Tecla_XL_Flat_XL-10BH_buttons.png — 79,224 bytes
+- M-0071/Baggages/Tecla55X4_1_8/Tecla_XL_Flat_XL-4BV_buttons.png — 52,556 bytes
+- M-0071/Baggages/Tecla55X4_1_8/Tecla_XL_Flat_XL-4BH_buttons.png — 52,740 bytes
+- M-0071/Baggages/Tecla55X4_1_8/Tecla_XL_Flat_XL-6BV_buttons.png — 60,724 bytes
+- M-0071/Baggages/Tecla55X4_1_8/Tecla_XL_Flat_XL-6BH_buttons.png — 61,197 bytes
+- M-0071/Baggages/Tecla55X4_1_8/Tecla55-1B_buttons.png — 15,498 bytes
+- M-0071/Baggages/Tecla55X4_1_8/Tecla55-2BH_buttons.png — 17,343 bytes
+- M-0071/Baggages/Tecla55X4_1_8/Tecla55-2BV_buttons.png — 16,875 bytes
+- M-0071/Baggages/Tecla55X4_1_8/Tecla55-4B_buttons.png — 18,864 bytes
+- M-0071/Baggages/Tecla55X4_1_8/Tecla55-6BH_buttons.png — 22,462 bytes
+- M-0071/Baggages/Tecla55X4_1_8/Tecla55-6BV_buttons.png — 21,158 bytes
+- M-0071/Baggages/Tecla55X4_1_8/SquareFlat55-1B_buttons.png — 13,706 bytes
+- M-0071/Baggages/Tecla55X4_1_8/SquareFlat55-2BH_buttons.png — 18,680 bytes
+- M-0071/Baggages/Tecla55X4_1_8/SquareFlat55-2BV_buttons.png — 17,936 bytes
+- M-0071/Baggages/Tecla55X4_1_8/SquareFlat55-4B_buttons.png — 21,659 bytes
+- M-0071/Baggages/Tecla55X6_1_8/SquareFlat-6BV_buttons.png — 21,298 bytes
+- M-0071/Baggages/Tecla55X6_1_8/SquareFlat-6BH_buttons.png — 20,893 bytes
+- M-0071/Baggages/Tecla55X6_1_8/SquareFlat-2BV_buttons.png — 16,120 bytes
+- M-0071/Baggages/Tecla55X6_1_8/SquareFlat-1B_buttons.png — 16,715 bytes
+- M-0071/Baggages/Tecla55X6_1_8/SquareFlat-4B_buttons.png — 19,825 bytes
+- M-0071/Baggages/Tecla55X6_1_8/SquareFlat-2BH_buttons.png — 16,468 bytes
+- M-0071/Baggages/Tecla55X6_1_8/Tecla_XL_Flat_XL-8BV_buttons.png — 64,556 bytes
+- M-0071/Baggages/Tecla55X6_1_8/Tecla_XL_Flat_XL-8BH_buttons.png — 66,375 bytes
+- M-0071/Baggages/Tecla55X6_1_8/Tecla_XL_Flat_XL-10BV_buttons.png — 75,722 bytes
+- M-0071/Baggages/Tecla55X6_1_8/Tecla_XL_Flat_XL-10BH_buttons.png — 79,224 bytes
+- M-0071/Baggages/Tecla55X6_1_8/Tecla_XL_Flat_XL-4BV_buttons.png — 52,556 bytes
+- M-0071/Baggages/Tecla55X6_1_8/Tecla_XL_Flat_XL-4BH_buttons.png — 52,740 bytes
+- M-0071/Baggages/Tecla55X6_1_8/Tecla_XL_Flat_XL-6BV_buttons.png — 60,724 bytes
+- M-0071/Baggages/Tecla55X6_1_8/Tecla_XL_Flat_XL-6BH_buttons.png — 61,197 bytes
+- M-0071/Baggages/Tecla55X6_1_8/Tecla55-1B_buttons.png — 15,498 bytes
+- M-0071/Baggages/Tecla55X6_1_8/Tecla55-2BH_buttons.png — 17,343 bytes
+- M-0071/Baggages/Tecla55X6_1_8/Tecla55-2BV_buttons.png — 16,875 bytes
+- M-0071/Baggages/Tecla55X6_1_8/Tecla55-4B_buttons.png — 18,864 bytes
+- M-0071/Baggages/Tecla55X6_1_8/Tecla55-6BH_buttons.png — 22,462 bytes
+- M-0071/Baggages/Tecla55X6_1_8/Tecla55-6BV_buttons.png — 21,158 bytes
+- M-0071/Baggages/Tecla55X6_1_8/SquareFlat55-1B_buttons.png — 13,706 bytes
+- M-0071/Baggages/Tecla55X6_1_8/SquareFlat55-2BH_buttons.png — 18,680 bytes
+- M-0071/Baggages/Tecla55X6_1_8/SquareFlat55-2BV_buttons.png — 17,936 bytes
+- M-0071/Baggages/Tecla55X6_1_8/SquareFlat55-4B_buttons.png — 21,659 bytes
+- knx_master.xml — 1,060,533 bytes
+- M-0071.signature — 172 bytes
+- P-07BC.signature — 172 bytes
+- P-07BC.certificate — 493 bytes
+- .validation — 744 bytes
+
+## Device-address candidates
+- No generic device-address candidates detected; inspect extracted XML directly.
+
+## Group-address candidates
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-619", "Address": "2048", "Name": "Move Garage ", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-620", "Address": "2049", "Name": "Move Garage Info", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-621", "Address": "2050", "Name": "Stop Garage ", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-622", "Address": "2051", "Name": "Stop Garage Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-623", "Address": "2052", "Name": "On/Off 3", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-624", "Address": "2053", "Name": "On/Off 3 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-625", "Address": "2054", "Name": "On/Off 4", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-626", "Address": "2055", "Name": "On/Off 4 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-627", "Address": "2056", "Name": "On/Off 5", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-628", "Address": "2057", "Name": "On/Off 5 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-629", "Address": "2058", "Name": "On/Off 6", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-630", "Address": "2059", "Name": "On/Off 6 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-631", "Address": "2060", "Name": "On/Off 7", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-632", "Address": "2061", "Name": "On/Off 7 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-633", "Address": "2062", "Name": "On/Off 8", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-634", "Address": "2063", "Name": "On/Off 8 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-635", "Address": "2064", "Name": "On/Off 9", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-636", "Address": "2065", "Name": "On/Off 9 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-637", "Address": "2066", "Name": "On/Off 10", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-638", "Address": "2067", "Name": "On/Off 10 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-639", "Address": "2068", "Name": "On/Off 11", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-640", "Address": "2069", "Name": "On/Off 11 Info ", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-641", "Address": "2070", "Name": "On/Off 12", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-642", "Address": "2071", "Name": "On/Off 12 Info ", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-643", "Address": "2072", "Name": "On/Off 13", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-644", "Address": "2073", "Name": "On/Off 13 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-645", "Address": "2074", "Name": "On/Off 14 ", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-646", "Address": "2075", "Name": "On/Off 14 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-647", "Address": "2076", "Name": "On/Off 15", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-648", "Address": "2077", "Name": "On/Off 15 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-649", "Address": "2078", "Name": "On/Off 16", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-650", "Address": "2079", "Name": "On/Off 16 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-651", "Address": "2080", "Name": "On/Off 17", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-652", "Address": "2081", "Name": "On/Off 17 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-653", "Address": "2082", "Name": "On/Off 18 ", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-654", "Address": "2083", "Name": "On/Off 18 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-655", "Address": "2084", "Name": "On/Off 19", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-656", "Address": "2085", "Name": "On/Off 19 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-657", "Address": "2086", "Name": "On/Off 20", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-658", "Address": "2087", "Name": "On/Off 20 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-659", "Address": "2088", "Name": "On/Off 21", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-660", "Address": "2089", "Name": "On/Off 21 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-661", "Address": "2090", "Name": "On/Off 22", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-662", "Address": "2091", "Name": "On/Off 22 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-663", "Address": "2092", "Name": "On/Off 23", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-664", "Address": "2093", "Name": "On/Off 23 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-665", "Address": "2094", "Name": "On/Off 24", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-666", "Address": "2095", "Name": "On/Off 24 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-667", "Address": "2096", "Name": "On/Off 25", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-668", "Address": "2097", "Name": "On/Off 25 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-669", "Address": "2098", "Name": "On/Off 26", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-670", "Address": "2099", "Name": "On/Off 26 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-671", "Address": "2100", "Name": "On/Off 27", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-672", "Address": "2101", "Name": "On/Off 27 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-673", "Address": "2102", "Name": "On/Off 28", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-674", "Address": "2103", "Name": "On/Off 28 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-675", "Address": "2104", "Name": "On/Off 29", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-676", "Address": "2105", "Name": "On/Off 29 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-677", "Address": "2106", "Name": "On/Off 30", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-678", "Address": "2107", "Name": "On/Off 30 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-679", "Address": "2108", "Name": "On/Off 31", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-680", "Address": "2109", "Name": "On/Off 31 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-681", "Address": "2110", "Name": "On/Off 32", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-682", "Address": "2111", "Name": "On/Off 32 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-683", "Address": "2112", "Name": "On/Off 33", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-684", "Address": "2113", "Name": "On/Off 33 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-685", "Address": "2114", "Name": "On/Off 34", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-686", "Address": "2115", "Name": "On/Off 34 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-687", "Address": "2116", "Name": "On/Off 35", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-688", "Address": "2117", "Name": "On/Off 35 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-689", "Address": "2118", "Name": "On/Off 36", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-690", "Address": "2119", "Name": "On/Off 36 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-691", "Address": "2120", "Name": "On/Off 37", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-692", "Address": "2121", "Name": "On/Off 37 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-693", "Address": "2122", "Name": "On/Off 38", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-694", "Address": "2123", "Name": "On/Off 38 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-695", "Address": "2124", "Name": "On/Off 39", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-696", "Address": "2125", "Name": "On/Off 39 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-697", "Address": "2126", "Name": "On/Off 40", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-698", "Address": "2127", "Name": "On/Off 40 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-699", "Address": "2128", "Name": "On/Off 41", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-700", "Address": "2129", "Name": "On/Off 41 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-701", "Address": "2130", "Name": "On/Off 42", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-702", "Address": "2131", "Name": "On/Off 42 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-703", "Address": "2132", "Name": "On/Off 43", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-704", "Address": "2133", "Name": "On/Off 43 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-705", "Address": "2134", "Name": "On/Off 44", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-706", "Address": "2135", "Name": "On/Off 44 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-707", "Address": "2136", "Name": "On/Off 45", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-708", "Address": "2137", "Name": "On/Off 45 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-709", "Address": "2138", "Name": "On/Off 46", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-710", "Address": "2139", "Name": "On/Off 46 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-711", "Address": "2140", "Name": "On/Off 47", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-712", "Address": "2141", "Name": "On/Off 47 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-713", "Address": "2142", "Name": "On/Off 48", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-714", "Address": "2143", "Name": "On/Off 48 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-715", "Address": "2144", "Name": "On/Off 49", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-716", "Address": "2145", "Name": "On/Off 49 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-717", "Address": "2146", "Name": "On/Off 50", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-718", "Address": "2147", "Name": "On/Off 50 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-719", "Address": "2148", "Name": "On/Off 51", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-720", "Address": "2149", "Name": "On/Off 51 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-721", "Address": "2150", "Name": "On/Off 52", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-722", "Address": "2151", "Name": "On/Off 52 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-723", "Address": "2152", "Name": "On/Off 53", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-724", "Address": "2153", "Name": "On/Off 53 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-725", "Address": "2154", "Name": "On/Off 54", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-726", "Address": "2155", "Name": "On/Off 54 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-727", "Address": "2156", "Name": "On/Off 55", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-728", "Address": "2157", "Name": "On/Off 55 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-729", "Address": "2158", "Name": "On/Off 56", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-730", "Address": "2159", "Name": "On/Off 56 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-731", "Address": "2160", "Name": "On/Off 57", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-732", "Address": "2161", "Name": "On/Off 57 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-733", "Address": "2162", "Name": "On/Off 58", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-734", "Address": "2163", "Name": "On/Off 58 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-735", "Address": "2164", "Name": "On/Off 59", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-736", "Address": "2165", "Name": "On/Off 59 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-737", "Address": "2166", "Name": "On/Off 60", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-738", "Address": "2167", "Name": "On/Off 60 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-739", "Address": "2168", "Name": "On/Off 61", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-740", "Address": "2169", "Name": "On/Off 61 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-741", "Address": "2170", "Name": "On/Off 62 ", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-742", "Address": "2171", "Name": "On/Off 62 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-743", "Address": "2172", "Name": "On/Off 63", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-744", "Address": "2173", "Name": "On/Off 63 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-745", "Address": "2174", "Name": "On/Off 64", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-746", "Address": "2175", "Name": "On/Off 64 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-747", "Address": "2176", "Name": "On/Off 65", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-748", "Address": "2177", "Name": "On/Off 65 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-749", "Address": "2178", "Name": "On/Off 66", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-750", "Address": "2179", "Name": "On/Off 66 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-751", "Address": "2180", "Name": "On/Off 67", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-752", "Address": "2181", "Name": "On/Off 67 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-753", "Address": "2182", "Name": "On/Off 68", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-754", "Address": "2183", "Name": "On/Off 68 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-755", "Address": "2184", "Name": "On/Off 69", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-756", "Address": "2185", "Name": "On/Off 69 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-757", "Address": "2186", "Name": "On/Off 70", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-758", "Address": "2187", "Name": "On/Off 70 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-759", "Address": "2188", "Name": "On/Off 71", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-760", "Address": "2189", "Name": "On/Off 71 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-761", "Address": "2190", "Name": "On/Off 72", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-762", "Address": "2191", "Name": "On/Off 72 Info", "DatapointType": "DPST-1-6"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-763", "Address": "2304", "Name": "D64 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-764", "Address": "2305", "Name": "D1 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-765", "Address": "2306", "Name": "D1 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-766", "Address": "2307", "Name": "D1 Dimming  ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-767", "Address": "2308", "Name": "D1 Dimming  Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-768", "Address": "2309", "Name": "D2 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-769", "Address": "2310", "Name": "D2 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-770", "Address": "2311", "Name": "D2 Dimming  ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-771", "Address": "2312", "Name": "D2 Dimming  Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-772", "Address": "2313", "Name": "D3 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-773", "Address": "2314", "Name": "D3 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-774", "Address": "2315", "Name": "D3 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-775", "Address": "2316", "Name": "D3 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-776", "Address": "2317", "Name": "D4 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-777", "Address": "2318", "Name": "D4 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-778", "Address": "2319", "Name": "D4 Dimmimg ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-779", "Address": "2320", "Name": "D4 Dimmimg Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-780", "Address": "2321", "Name": "D5 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-781", "Address": "2322", "Name": "D5 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-782", "Address": "2323", "Name": "D5 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-783", "Address": "2324", "Name": "D5 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-784", "Address": "2325", "Name": "D6 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-785", "Address": "2326", "Name": "D6 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-786", "Address": "2327", "Name": "D6 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-787", "Address": "2328", "Name": "D6 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-788", "Address": "2329", "Name": "D7 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-789", "Address": "2330", "Name": "D7 ON/Off  Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-790", "Address": "2331", "Name": "D7 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-791", "Address": "2332", "Name": "D7 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-792", "Address": "2333", "Name": "D8 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-793", "Address": "2334", "Name": "D8 ON/Off Info", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-794", "Address": "2335", "Name": "D8 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-795", "Address": "2336", "Name": "D8 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-796", "Address": "2337", "Name": "D9 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-797", "Address": "2338", "Name": "D9 ON/Off  Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-798", "Address": "2339", "Name": "D9 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-799", "Address": "2340", "Name": "D9 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-800", "Address": "2341", "Name": "D10 ON/Off  ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-801", "Address": "2342", "Name": "D10 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-802", "Address": "2343", "Name": "D10 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-803", "Address": "2344", "Name": "D10 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-804", "Address": "2345", "Name": "D11 ON/Off  ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-805", "Address": "2346", "Name": "D11 ON/Off  Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-806", "Address": "2347", "Name": "D11 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-807", "Address": "2348", "Name": "D11 Dimmimg Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-808", "Address": "2349", "Name": "D12 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-809", "Address": "2350", "Name": "D12 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-810", "Address": "2351", "Name": "D12 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-811", "Address": "2352", "Name": "D12 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-812", "Address": "2353", "Name": "D13 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-813", "Address": "2354", "Name": "D13 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-814", "Address": "2355", "Name": "D13 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-815", "Address": "2356", "Name": "D13 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-816", "Address": "2357", "Name": "D14 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-817", "Address": "2358", "Name": "D14 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-818", "Address": "2359", "Name": "D14 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-819", "Address": "2360", "Name": "D14 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-820", "Address": "2361", "Name": "D15 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-821", "Address": "2362", "Name": "D15 ON/Off Info", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-822", "Address": "2363", "Name": "D15 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-823", "Address": "2364", "Name": "D15 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-824", "Address": "2365", "Name": "D16 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-825", "Address": "2366", "Name": "D16 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-826", "Address": "2367", "Name": "D16 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-827", "Address": "2368", "Name": "D16 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-828", "Address": "2369", "Name": "D17 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-829", "Address": "2370", "Name": "D17 ON/Off Info", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-830", "Address": "2371", "Name": "D17 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-831", "Address": "2372", "Name": "D17 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-832", "Address": "2373", "Name": "D18 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-833", "Address": "2374", "Name": "D18 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-834", "Address": "2375", "Name": "D18 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-835", "Address": "2376", "Name": "D18 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-836", "Address": "2377", "Name": "D19 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-837", "Address": "2378", "Name": "D19 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-838", "Address": "2379", "Name": "D19 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-839", "Address": "2380", "Name": "D19 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-840", "Address": "2381", "Name": "D20 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-841", "Address": "2382", "Name": "D20 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-842", "Address": "2383", "Name": "D20 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-843", "Address": "2384", "Name": "D20 Dimming Info", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-844", "Address": "2385", "Name": "D21 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-845", "Address": "2386", "Name": "D21 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-846", "Address": "2387", "Name": "D21 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-847", "Address": "2388", "Name": "D21 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-848", "Address": "2389", "Name": "D22 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-849", "Address": "2390", "Name": "D22 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-850", "Address": "2391", "Name": "D22 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-851", "Address": "2392", "Name": "D22 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-852", "Address": "2393", "Name": "D23 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-853", "Address": "2394", "Name": "D23 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-854", "Address": "2395", "Name": "D23 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-855", "Address": "2396", "Name": "D23 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-856", "Address": "2397", "Name": "D24 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-857", "Address": "2398", "Name": "D24 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-858", "Address": "2399", "Name": "D24 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-859", "Address": "2400", "Name": "D24 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-860", "Address": "2401", "Name": "D25 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-861", "Address": "2402", "Name": "D25 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-862", "Address": "2403", "Name": "D25 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-863", "Address": "2404", "Name": "D25 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-864", "Address": "2405", "Name": "D26 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-865", "Address": "2406", "Name": "D26 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-866", "Address": "2407", "Name": "D26 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-867", "Address": "2408", "Name": "D26 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-868", "Address": "2409", "Name": "D27 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-869", "Address": "2410", "Name": "D27 ON/Off Info", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-870", "Address": "2411", "Name": "D27 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-871", "Address": "2412", "Name": "D27 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-872", "Address": "2413", "Name": "D28 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-873", "Address": "2414", "Name": "D28 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-874", "Address": "2415", "Name": "D28 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-875", "Address": "2416", "Name": "D28 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-876", "Address": "2417", "Name": "D29 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-877", "Address": "2418", "Name": "D29 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-878", "Address": "2419", "Name": "D29 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-879", "Address": "2420", "Name": "D29 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-880", "Address": "2421", "Name": "D30 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-881", "Address": "2422", "Name": "D30 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-882", "Address": "2423", "Name": "D30 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-883", "Address": "2424", "Name": "D30 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-884", "Address": "2425", "Name": "D31 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-885", "Address": "2426", "Name": "D31 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-886", "Address": "2427", "Name": "D31 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-887", "Address": "2428", "Name": "D31 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-888", "Address": "2429", "Name": "D32 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-889", "Address": "2430", "Name": "D32 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-890", "Address": "2431", "Name": "D32 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-891", "Address": "2432", "Name": "D32 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-892", "Address": "2433", "Name": "D33 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-893", "Address": "2434", "Name": "D33 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-894", "Address": "2435", "Name": "D33 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-895", "Address": "2436", "Name": "D33 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-896", "Address": "2437", "Name": "D34 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-897", "Address": "2438", "Name": "D34 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-898", "Address": "2439", "Name": "D34 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-899", "Address": "2440", "Name": "D34 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-900", "Address": "2441", "Name": "D35 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-901", "Address": "2442", "Name": "D35 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-902", "Address": "2443", "Name": "D35 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-903", "Address": "2444", "Name": "D35 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-904", "Address": "2445", "Name": "D36 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-905", "Address": "2446", "Name": "D36 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-906", "Address": "2447", "Name": "D36 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-907", "Address": "2448", "Name": "D36 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-908", "Address": "2449", "Name": "D37 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-909", "Address": "2450", "Name": "D37 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-910", "Address": "2451", "Name": "D37 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-911", "Address": "2452", "Name": "D37 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-912", "Address": "2453", "Name": "D38 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-913", "Address": "2454", "Name": "D38 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-914", "Address": "2455", "Name": "D38 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-915", "Address": "2456", "Name": "D38 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-916", "Address": "2457", "Name": "D39 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-917", "Address": "2458", "Name": "D39 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-918", "Address": "2459", "Name": "D39 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-919", "Address": "2460", "Name": "D39 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-920", "Address": "2461", "Name": "D40 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-921", "Address": "2462", "Name": "D40 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-922", "Address": "2463", "Name": "D40 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-923", "Address": "2464", "Name": "D40 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-924", "Address": "2465", "Name": "D41 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-925", "Address": "2466", "Name": "D41 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-926", "Address": "2467", "Name": "D41 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-927", "Address": "2468", "Name": "D41 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-928", "Address": "2469", "Name": "D42 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-929", "Address": "2470", "Name": "D42 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-930", "Address": "2471", "Name": "D42 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-931", "Address": "2472", "Name": "D42 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-932", "Address": "2473", "Name": "D43 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-933", "Address": "2474", "Name": "D43 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-934", "Address": "2475", "Name": "D43 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-935", "Address": "2476", "Name": "D43 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-936", "Address": "2477", "Name": "D44 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-937", "Address": "2478", "Name": "D44 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-938", "Address": "2479", "Name": "D44 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-939", "Address": "2480", "Name": "D44 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-940", "Address": "2481", "Name": "D45 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-941", "Address": "2482", "Name": "D45 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-942", "Address": "2483", "Name": "D45 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-943", "Address": "2484", "Name": "D45 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-944", "Address": "2485", "Name": "D46 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-945", "Address": "2486", "Name": "D46 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-946", "Address": "2487", "Name": "D46 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-947", "Address": "2488", "Name": "D46 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-948", "Address": "2489", "Name": "D47 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-949", "Address": "2490", "Name": "D47 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-950", "Address": "2491", "Name": "D47 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-951", "Address": "2492", "Name": "D47 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-952", "Address": "2493", "Name": "D48 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-953", "Address": "2494", "Name": "D48 ON/Off Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-954", "Address": "2495", "Name": "D48 Dimming ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-955", "Address": "2496", "Name": "D48 Dimming Info ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-956", "Address": "2497", "Name": "D49 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-957", "Address": "2498", "Name": "D49 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-958", "Address": "2499", "Name": "D49 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-959", "Address": "2500", "Name": "D49 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-960", "Address": "2501", "Name": "D50 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-961", "Address": "2502", "Name": "D50 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-962", "Address": "2503", "Name": "D50 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-963", "Address": "2504", "Name": "D50 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-964", "Address": "2505", "Name": "D51 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-965", "Address": "2506", "Name": "D51 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-966", "Address": "2507", "Name": "D51 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-967", "Address": "2508", "Name": "D51 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-968", "Address": "2509", "Name": "D52 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-969", "Address": "2510", "Name": "D52 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-970", "Address": "2511", "Name": "D52 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-971", "Address": "2512", "Name": "D52 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-972", "Address": "2513", "Name": "D53 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-973", "Address": "2514", "Name": "D53 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-974", "Address": "2515", "Name": "D53 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-975", "Address": "2516", "Name": "D53 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-976", "Address": "2517", "Name": "D54 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-977", "Address": "2518", "Name": "D54 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-978", "Address": "2519", "Name": "D54 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-979", "Address": "2520", "Name": "D54 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-980", "Address": "2521", "Name": "D55 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-981", "Address": "2522", "Name": "D55 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-982", "Address": "2523", "Name": "D55 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-983", "Address": "2524", "Name": "D55 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-984", "Address": "2525", "Name": "D56 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-985", "Address": "2526", "Name": "D56 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-986", "Address": "2527", "Name": "D56 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-987", "Address": "2528", "Name": "D56 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-988", "Address": "2529", "Name": "D57 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-989", "Address": "2530", "Name": "D57 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-990", "Address": "2531", "Name": "D57 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-991", "Address": "2532", "Name": "D57 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-992", "Address": "2533", "Name": "D58 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-993", "Address": "2534", "Name": "D58 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-994", "Address": "2535", "Name": "D58 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-995", "Address": "2536", "Name": "D58 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-996", "Address": "2537", "Name": "D59 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-997", "Address": "2538", "Name": "D59 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-998", "Address": "2539", "Name": "D59 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-999", "Address": "2540", "Name": "D59 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1000", "Address": "2541", "Name": "D60 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1001", "Address": "2542", "Name": "D60 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1002", "Address": "2543", "Name": "D60 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1003", "Address": "2544", "Name": "D60 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1004", "Address": "2545", "Name": "D61 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1005", "Address": "2546", "Name": "D61 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1006", "Address": "2547", "Name": "D61 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1007", "Address": "2548", "Name": "D61 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1008", "Address": "2549", "Name": "D62 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1009", "Address": "2550", "Name": "D62 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1010", "Address": "2551", "Name": "D62 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1011", "Address": "2552", "Name": "D62 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1012", "Address": "2553", "Name": "D63 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1013", "Address": "2554", "Name": "D63 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1014", "Address": "2555", "Name": "D63 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1015", "Address": "2556", "Name": "D63 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1016", "Address": "2557", "Name": "D64 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1017", "Address": "2558", "Name": "D64 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1018", "Address": "2559", "Name": "D64 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1019", "Address": "2561", "Name": "D65 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1020", "Address": "2562", "Name": "D65 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1021", "Address": "2563", "Name": "D65 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1022", "Address": "2564", "Name": "D65 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1023", "Address": "2565", "Name": "D66 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1024", "Address": "2566", "Name": "D66 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1025", "Address": "2567", "Name": "D66 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1026", "Address": "2568", "Name": "D66 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1027", "Address": "2569", "Name": "D67 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1028", "Address": "2570", "Name": "D67 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1029", "Address": "2571", "Name": "D67 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1030", "Address": "2572", "Name": "D67 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1031", "Address": "2573", "Name": "D68 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1032", "Address": "2574", "Name": "D68 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1033", "Address": "2575", "Name": "D68 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1034", "Address": "2576", "Name": "D68 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1035", "Address": "2577", "Name": "D69 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1036", "Address": "2578", "Name": "D69 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1037", "Address": "2579", "Name": "D69 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1038", "Address": "2580", "Name": "D69 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1039", "Address": "2581", "Name": "D70 ON/Off", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1040", "Address": "2582", "Name": "D70 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1041", "Address": "2583", "Name": "D70 Dimming ", "DatapointType": "DPST-3-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1042", "Address": "2584", "Name": "D70 Dimming Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1043", "Address": "2817", "Name": "1 Move", "DatapointType": "DPST-1-8"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1044", "Address": "2818", "Name": "1 Stop ", "DatapointType": "DPST-1-17"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1045", "Address": "2819", "Name": "1 Status", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1046", "Address": "2820", "Name": "2 Move ", "DatapointType": "DPST-1-8"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1047", "Address": "2821", "Name": "2 Stop ", "DatapointType": "DPST-1-17"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1048", "Address": "2822", "Name": "2 Status", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1049", "Address": "2823", "Name": "3 Move ", "DatapointType": "DPST-1-8"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1050", "Address": "2824", "Name": "3 Stop ", "DatapointType": "DPST-1-17"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1051", "Address": "2825", "Name": "3 Status", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1052", "Address": "2826", "Name": "4 Move ", "DatapointType": "DPST-1-8"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1053", "Address": "2827", "Name": "4 Stop ", "DatapointType": "DPST-1-17"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1054", "Address": "2828", "Name": "4 Status", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1055", "Address": "2829", "Name": "5 Move ", "DatapointType": "DPST-1-8"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1056", "Address": "2830", "Name": "5 Stop ", "DatapointType": "DPST-1-17"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1057", "Address": "2831", "Name": "5 Status", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1058", "Address": "2832", "Name": "6 Move ", "DatapointType": "DPST-1-8"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1059", "Address": "2833", "Name": "6 Stop ", "DatapointType": "DPST-1-17"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1060", "Address": "2834", "Name": "6 Status", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1061", "Address": "2835", "Name": "7 Move ", "DatapointType": "DPST-1-8"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1062", "Address": "2836", "Name": "7 Stop ", "DatapointType": "DPST-1-17"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1063", "Address": "2837", "Name": "7 Status", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1064", "Address": "2838", "Name": "8 Move ", "DatapointType": "DPST-1-8"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1065", "Address": "2839", "Name": "8 Stop ", "DatapointType": "DPST-1-17"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1066", "Address": "2840", "Name": "8 Status", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1067", "Address": "2841", "Name": "9 Move ", "DatapointType": "DPST-1-8"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1068", "Address": "2842", "Name": "9 Stop ", "DatapointType": "DPST-1-17"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1069", "Address": "2843", "Name": "9 Status", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1070", "Address": "2844", "Name": "10 Move ", "DatapointType": "DPST-1-8"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1071", "Address": "2845", "Name": "10 Stop ", "DatapointType": "DPST-1-17"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1072", "Address": "2846", "Name": "10 Status", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1073", "Address": "2847", "Name": "11 Move ", "DatapointType": "DPST-1-8"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1074", "Address": "2848", "Name": "11 Stop ", "DatapointType": "DPST-1-17"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1075", "Address": "2849", "Name": "11 Status", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1076", "Address": "2850", "Name": "12 Move ", "DatapointType": "DPST-1-8"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1077", "Address": "2851", "Name": "12 Stop ", "DatapointType": "DPST-1-17"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1078", "Address": "2852", "Name": "12 Status", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1079", "Address": "2853", "Name": "13 Move ", "DatapointType": "DPST-1-8"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1080", "Address": "2854", "Name": "13 Stop ", "DatapointType": "DPST-1-17"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1081", "Address": "2855", "Name": "13 Status", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1082", "Address": "2856", "Name": "14 Move ", "DatapointType": "DPST-1-8"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1083", "Address": "2857", "Name": "14 Stop ", "DatapointType": "DPST-1-17"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1084", "Address": "2858", "Name": "14 Status", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1085", "Address": "2859", "Name": "15 Move ", "DatapointType": "DPST-1-8"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1086", "Address": "2860", "Name": "15 Stop ", "DatapointType": "DPST-1-17"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1087", "Address": "2861", "Name": "15 Status", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1088", "Address": "2862", "Name": "16 Move ", "DatapointType": "DPST-1-8"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1089", "Address": "2863", "Name": "16 Stop ", "DatapointType": "DPST-1-17"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1090", "Address": "2864", "Name": "16 Status", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1091", "Address": "2865", "Name": "17 Move ", "DatapointType": "DPST-1-8"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1092", "Address": "2866", "Name": "17 Stop ", "DatapointType": "DPST-1-17"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1093", "Address": "2867", "Name": "17 Status", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1094", "Address": "2868", "Name": "18 Move ", "DatapointType": "DPST-1-8"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1095", "Address": "2869", "Name": "18 Stop ", "DatapointType": "DPST-1-17"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1096", "Address": "2870", "Name": "18 Status", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1097", "Address": "3073", "Name": "1 Mode ", "DatapointType": "DPST-20-105"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1098", "Address": "3074", "Name": "1 Mode Info ", "DatapointType": "DPST-20-105"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1099", "Address": "3075", "Name": "1 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1100", "Address": "3076", "Name": "1 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1101", "Address": "3077", "Name": "1 Fan ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1102", "Address": "3078", "Name": "1 Fan Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1103", "Address": "3079", "Name": "1 Set Point ", "DatapointType": "DPST-9-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1104", "Address": "3080", "Name": "1 Set Point Info ", "DatapointType": "DPST-9-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1105", "Address": "3081", "Name": "1 Temp.", "DatapointType": "DPST-7-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1106", "Address": "3082", "Name": "1 Error Code ", "DatapointType": "DPST-16-0"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1107", "Address": "3083", "Name": "2 Mode ", "DatapointType": "DPST-20-105"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1108", "Address": "3084", "Name": "2 Mode Info ", "DatapointType": "DPST-20-105"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1109", "Address": "3085", "Name": "2 ON/Off ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1110", "Address": "3086", "Name": "2 ON/Off Info ", "DatapointType": "DPST-1-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1111", "Address": "3087", "Name": "2 Fan ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1112", "Address": "3088", "Name": "2 Fan Info ", "DatapointType": "DPST-5-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1113", "Address": "3089", "Name": "2 Set Point ", "DatapointType": "DPST-9-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1114", "Address": "3090", "Name": "2 Set Point Info ", "DatapointType": "DPST-9-1"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1115", "Address": "3091", "Name": "2 Temp.", "DatapointType": "DPST-7-7"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1116", "Address": "3092", "Name": "2 Error Code ", "DatapointType": "DPST-16-0"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1117", "Address": "3093", "Name": "3 Mode ", "DatapointType": "DPST-20-105"}
+- P-07BC/0.xml | GroupAddress | {"Id": "P-07BC-0_GA-1118", "Address": "3094", "Name": "3 Mode Info ", "DatapointType": "DPST-20-105"}
+
+## Engineering note
+This inspection is read-only with respect to the original .knxproj. The next engineering step can modify a copy after the real project XML, application references, device instances and topology are reviewed.
