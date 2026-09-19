@@ -1,0 +1,151 @@
+name: Inspect KNX project
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/inspect-knx-project.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Inspect .knxproj
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import zipfile, xml.etree.ElementTree as ET, re, json, shutil
+
+          repo = Path(".")
+          projects = list(repo.glob("*.knxproj"))
+          if not projects:
+              raise SystemExit("No .knxproj file found at repository root.")
+          project = projects[0]
+
+          out = repo / "knx-analysis"
+          if out.exists():
+              shutil.rmtree(out)
+          out.mkdir()
+
+          manifest = []
+          with zipfile.ZipFile(project, "r") as z:
+              names = z.namelist()
+              for n in names:
+                  info = z.getinfo(n)
+                  manifest.append((n, info.file_size))
+
+              (out / "ARCHIVE_MANIFEST.txt").write_text(
+                  "\n".join(f"{n}\t{size}" for n,size in manifest),
+                  encoding="utf-8"
+              )
+
+              extracted = 0
+              for n in names:
+                  if not n.lower().endswith(".xml"):
+                      continue
+                  if not (n.startswith("P-") or n.startswith("Project") or n == "knx_master.xml"):
+                      continue
+                  dest = out / "xml" / n
+                  dest.parent.mkdir(parents=True, exist_ok=True)
+                  data = z.read(n)
+                  try:
+                      text = data.decode("utf-8")
+                  except UnicodeDecodeError:
+                      continue
+                  dest.write_text(text, encoding="utf-8")
+                  extracted += 1
+
+              encrypted = [n for n in names if re.match(r"^P-[^/]+\.zip$", n, re.I)]
+              (out / "ENCRYPTION_STATUS.txt").write_text(
+                  "Project-specific encrypted ZIP containers detected:\n" +
+                  ("\n".join(encrypted) if encrypted else "None detected"),
+                  encoding="utf-8"
+              )
+
+              xml_files = []
+              tool_versions = set()
+              device_candidates = []
+              ga_candidates = []
+              for n in names:
+                  if not n.lower().endswith(".xml"):
+                      continue
+                  try:
+                      root = ET.fromstring(z.read(n))
+                  except Exception:
+                      continue
+                  xml_files.append(n)
+                  blob = ET.tostring(root, encoding="unicode", short_empty_elements=True)
+                  for m in re.findall(r'ToolVersion\s*=\s*"([^"]+)"', blob):
+                      tool_versions.add(m)
+
+                  for el in root.iter():
+                      tag = el.tag.split("}")[-1]
+                      attrs = {k.split("}")[-1]: v for k,v in el.attrib.items()}
+                      if "DeviceInstance" in tag or tag.lower() == "device":
+                          if any(k.lower() in attrs for k in ["address","individualaddress","physicaladdress"]):
+                              device_candidates.append({
+                                  "file": n,
+                                  "tag": tag,
+                                  "attrs": {k:v for k,v in attrs.items() if k.lower() in [
+                                      "id","name","address","individualaddress","physicaladdress",
+                                      "productrefid","hardware2programrefid","description","function"
+                                  ]}
+                              })
+                      if "GroupAddress" in tag:
+                          if attrs:
+                              ga_candidates.append({
+                                  "file": n, "tag": tag,
+                                  "attrs": {k:v for k,v in attrs.items() if k.lower() in ["id","name","address","groupaddress","datapointtype","dpt"]}
+                              })
+
+          summary = []
+          summary.append("# KNX Project Inspection")
+          summary.append("")
+          summary.append(f"- Source: {project.name}")
+          summary.append(f"- Size: {project.stat().st_size:,} bytes")
+          summary.append(f"- Archive XML files: {len(xml_files)}")
+          summary.append(f"- Project-specific XMLs extracted: {extracted}")
+          summary.append(f"- Detected ToolVersion values: {', '.join(sorted(tool_versions)) or 'not found in generic scan'}")
+          summary.append(f"- Encrypted project container detected: {bool(encrypted)}")
+          summary.append("")
+          summary.append("## Archive entries")
+          for n,size in manifest:
+              summary.append(f"- {n} — {size:,} bytes")
+          summary.append("")
+          summary.append("## Device-address candidates")
+          if device_candidates:
+              for d in device_candidates[:500]:
+                  summary.append(f"- {d['file']} | {d['tag']} | {json.dumps(d['attrs'], ensure_ascii=False)}")
+          else:
+              summary.append("- No generic device-address candidates detected; inspect extracted XML directly.")
+          summary.append("")
+          summary.append("## Group-address candidates")
+          if ga_candidates:
+              for g in ga_candidates[:500]:
+                  summary.append(f"- {g['file']} | {g['tag']} | {json.dumps(g['attrs'], ensure_ascii=False)}")
+          else:
+              summary.append("- No generic group-address candidates detected; inspect extracted XML directly.")
+          summary.append("")
+          summary.append("## Engineering note")
+          summary.append("This inspection is read-only with respect to the original .knxproj. The next engineering step can modify a copy after the real project XML, application references, device instances and topology are reviewed.")
+          (out / "PROJECT_INSPECTION.md").write_text("\n".join(summary), encoding="utf-8")
+
+          print("\n".join(summary[:25]))
+          PY
+
+      - name: Commit inspection report
+        shell: bash
+        run: |
+          git config user.name "KNX Project Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add knx-analysis
+          git diff --cached --quiet && exit 0
+          git commit -m "Add KNX project inspection report"
+          git push
