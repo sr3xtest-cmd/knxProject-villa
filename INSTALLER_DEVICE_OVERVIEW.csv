@@ -1,0 +1,57 @@
+﻿DeviceId,IndividualAddress,Name,DeviceType,LinkedGroupAddressCount
+P-07BC-0_DI-11,1,,KIPI SC — KNX-IP interface,0
+P-07BC-0_DI-12,2,,DALI BOX Interface 64 v3 — up to 64 DALI ballasts,0
+P-07BC-0_DI-13,3,,DALI BOX Interface 64 v3 — up to 64 DALI ballasts,0
+P-07BC-0_DI-14,4,,MAXinBOX 8 v4 — 8 relay outputs,15
+P-07BC-0_DI-15,5,,MAXinBOX 8 v4 — 8 relay outputs,16
+P-07BC-0_DI-16,6,,MAXinBOX 16 v4 — 16 relay outputs,32
+P-07BC-0_DI-17,7,,MAXinBOX 16 v4 — 16 relay outputs,32
+P-07BC-0_DI-18,8,,MAXinBOX 24 v2 — 24 relay outputs,48
+P-07BC-0_DI-19,9,,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,24
+P-07BC-0_DI-20,10,,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,24
+P-07BC-0_DI-21,11,,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,6
+P-07BC-0_DI-22,12,,Logic controller (project exposes HVAC blocks),10
+P-07BC-0_DI-24,13,,Logic controller (project exposes HVAC blocks),10
+P-07BC-0_DI-25,14,,Logic controller (project exposes HVAC blocks),10
+P-07BC-0_DI-26,15,,Logic controller (project exposes HVAC blocks),10
+P-07BC-0_DI-27,16,,Logic controller (project exposes HVAC blocks),10
+P-07BC-0_DI-28,17,,Logic controller (project exposes HVAC blocks),10
+P-07BC-0_DI-29,18,,Logic controller (project exposes HVAC blocks),10
+P-07BC-0_DI-30,19,,Logic controller (project exposes HVAC blocks),10
+P-07BC-0_DI-38,20,,Logic controller (project exposes HVAC blocks),10
+P-07BC-0_DI-41,21,,Logic controller (project exposes HVAC blocks),0
+P-07BC-0_DI-42,22,,Logic controller (project exposes HVAC blocks),0
+P-07BC-0_DI-43,23,,IRSC — A/C infrared controller,0
+P-07BC-0_DI-44,24,,IRSC — A/C infrared controller,0
+P-07BC-0_DI-45,25,,IRSC — A/C infrared controller,0
+P-07BC-0_DI-46,26,,IRSC — A/C infrared controller,0
+P-07BC-0_DI-57,27,,Tecla 55 X4 — capacitive keypad,0
+P-07BC-0_DI-58,28,,Tecla 55 X4 — capacitive keypad,0
+P-07BC-0_DI-59,29,,Tecla 55 X4 — capacitive keypad,0
+P-07BC-0_DI-60,30,,Tecla 55 X4 — capacitive keypad,0
+P-07BC-0_DI-61,31,,Tecla 55 X4 — capacitive keypad,0
+P-07BC-0_DI-62,32,,Tecla 55 X4 — capacitive keypad,0
+P-07BC-0_DI-63,33,,Tecla 55 X6 — capacitive keypad,0
+P-07BC-0_DI-64,34,,Tecla 55 X6 — capacitive keypad,0
+P-07BC-0_DI-72,35,,Tecla 55 X6 — capacitive keypad,0
+P-07BC-0_DI-73,36,,Tecla 55 X6 — capacitive keypad,0
+P-07BC-0_DI-65,37,,Touch-MyDesign Plus 4,0
+P-07BC-0_DI-66,38,,Touch-MyDesign Plus 4,0
+P-07BC-0_DI-70,39,Majlis & Dining Touch-MyDesign Plus 6,Touch-MyDesign Plus 6,0
+P-07BC-0_DI-74,40,Majlis & Dining Touch-MyDesign Plus 6,Touch-MyDesign Plus 6,0
+P-07BC-0_DI-71,41,G.F Living Areas Touch-MyDesign Plus 8,Touch-MyDesign Plus 8,0
+P-07BC-0_DI-86,42,Living Room Z35 v2,Z35 v2 — touch panel / thermostat,42
+P-07BC-0_DI-85,43,Majlis & Dining G.F Z35 v2,Z35 v2 — touch panel / thermostat,47
+P-07BC-0_DI-87,44,Sun Room Z35 v2,Z35 v2 — touch panel / thermostat,18
+P-07BC-0_DI-88,45,Master Room Z35 v2,Z35 v2 — touch panel / thermostat,44
+P-07BC-0_DI-89,46,Room 1 Z35 v2,Z35 v2 — touch panel / thermostat,34
+P-07BC-0_DI-90,47,Room 2 Z35 v2,Z35 v2 — touch panel / thermostat,34
+P-07BC-0_DI-91,48,Roof Master Room Z35 v2,Z35 v2 — touch panel / thermostat,33
+P-07BC-0_DI-92,49,Roof Living Areas Z35 v2,Z35 v2 — touch panel / thermostat,37
+P-07BC-0_DI-98,50,Majlis & Dining G.F Z35 v2,Z35 v2 — touch panel / thermostat,0
+P-07BC-0_DI-99,51,,Z100 — 10-inch touch panel,407
+P-07BC-0_DI-100,52,,EyeZen TP v2 — motion/lux sensor,0
+P-07BC-0_DI-101,53,,EyeZen TP v2 — motion/lux sensor,0
+P-07BC-0_DI-102,54,,EyeZen TP v2 — motion/lux sensor,0
+P-07BC-0_DI-103,55,,EyeZen TP v2 — motion/lux sensor,0
+P-07BC-0_DI-10,,,KUPSupply 640 mA KNX power supply,0

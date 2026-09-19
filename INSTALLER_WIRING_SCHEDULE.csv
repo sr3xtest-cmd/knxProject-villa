@@ -1,0 +1,227 @@
+﻿DeviceId,IndividualAddress,Device,ChannelOrDomain,OutputOrObject,ProjectGroupName,DPT,PhysicalDomain,EvidenceLevel
+P-07BC-0_DI-11,1,KIPI SC — KNX-IP interface,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-12,2,DALI BOX Interface 64 v3 — up to 64 DALI ballasts,,DALI bus,,,DALI lighting,Device type is explicit; exact ballast/group mapping is not visible from the DeviceInstance links
+P-07BC-0_DI-13,3,DALI BOX Interface 64 v3 — up to 64 DALI ballasts,,DALI bus,,,DALI lighting,Device type is explicit; exact ballast/group mapping is not visible from the DeviceInstance links
+P-07BC-0_DI-14,4,MAXinBOX 8 v4 — 8 relay outputs,1,Relay 1,Move Garage,DPST-1-6,Garage motor command,Inferred from 8-output capacity + project GA sequence
+P-07BC-0_DI-14,4,MAXinBOX 8 v4 — 8 relay outputs,2,Relay 2,Stop Garage,DPST-1-6,Garage stop,Inferred; verify physical terminal on electrical schedule
+P-07BC-0_DI-14,4,MAXinBOX 8 v4 — 8 relay outputs,3,Relay 3,On/Off 3,DPST-1-6,Lighting output,Inferred from project GA sequence
+P-07BC-0_DI-14,4,MAXinBOX 8 v4 — 8 relay outputs,4,Relay 4,On/Off 4,DPST-1-6,Lighting output,Inferred from project GA sequence
+P-07BC-0_DI-14,4,MAXinBOX 8 v4 — 8 relay outputs,5,Relay 5,On/Off 5,DPST-1-6,Lighting output,Inferred from project GA sequence
+P-07BC-0_DI-14,4,MAXinBOX 8 v4 — 8 relay outputs,6,Relay 6,On/Off 6,DPST-1-6,Lighting output,Inferred from project GA sequence
+P-07BC-0_DI-14,4,MAXinBOX 8 v4 — 8 relay outputs,7,Relay 7,On/Off 7,DPST-1-6,Lighting output,Inferred from project GA sequence
+P-07BC-0_DI-14,4,MAXinBOX 8 v4 — 8 relay outputs,8,Relay 8,On/Off 8,DPST-1-6,Lighting output,Inferred from project GA sequence
+P-07BC-0_DI-15,5,MAXinBOX 8 v4 — 8 relay outputs,1,Relay 1,Move Garage,,Garage motor command,Inferred from 8-output capacity + project GA sequence
+P-07BC-0_DI-15,5,MAXinBOX 8 v4 — 8 relay outputs,2,Relay 2,Stop Garage,,Garage stop,Inferred; verify physical terminal on electrical schedule
+P-07BC-0_DI-15,5,MAXinBOX 8 v4 — 8 relay outputs,3,Relay 3,On/Off 3,,Lighting output,Inferred from project GA sequence
+P-07BC-0_DI-15,5,MAXinBOX 8 v4 — 8 relay outputs,4,Relay 4,On/Off 4,,Lighting output,Inferred from project GA sequence
+P-07BC-0_DI-15,5,MAXinBOX 8 v4 — 8 relay outputs,5,Relay 5,On/Off 5,,Lighting output,Inferred from project GA sequence
+P-07BC-0_DI-15,5,MAXinBOX 8 v4 — 8 relay outputs,6,Relay 6,On/Off 6,,Lighting output,Inferred from project GA sequence
+P-07BC-0_DI-15,5,MAXinBOX 8 v4 — 8 relay outputs,7,Relay 7,On/Off 7,,Lighting output,Inferred from project GA sequence
+P-07BC-0_DI-15,5,MAXinBOX 8 v4 — 8 relay outputs,8,Relay 8,On/Off 8,,Lighting output,Inferred from project GA sequence
+P-07BC-0_DI-16,6,MAXinBOX 16 v4 — 16 relay outputs,1,Relay 1,On/Off 17,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-16,6,MAXinBOX 16 v4 — 16 relay outputs,2,Relay 2,On/Off 18,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-16,6,MAXinBOX 16 v4 — 16 relay outputs,3,Relay 3,On/Off 19,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-16,6,MAXinBOX 16 v4 — 16 relay outputs,4,Relay 4,On/Off 20,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-16,6,MAXinBOX 16 v4 — 16 relay outputs,5,Relay 5,On/Off 21,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-16,6,MAXinBOX 16 v4 — 16 relay outputs,6,Relay 6,On/Off 22,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-16,6,MAXinBOX 16 v4 — 16 relay outputs,7,Relay 7,On/Off 23,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-16,6,MAXinBOX 16 v4 — 16 relay outputs,8,Relay 8,On/Off 24,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-16,6,MAXinBOX 16 v4 — 16 relay outputs,9,Relay 9,On/Off 25,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-16,6,MAXinBOX 16 v4 — 16 relay outputs,10,Relay 10,On/Off 26,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-16,6,MAXinBOX 16 v4 — 16 relay outputs,11,Relay 11,On/Off 27,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-16,6,MAXinBOX 16 v4 — 16 relay outputs,12,Relay 12,On/Off 28,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-16,6,MAXinBOX 16 v4 — 16 relay outputs,13,Relay 13,On/Off 29,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-16,6,MAXinBOX 16 v4 — 16 relay outputs,14,Relay 14,On/Off 30,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-16,6,MAXinBOX 16 v4 — 16 relay outputs,15,Relay 15,On/Off 31,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-16,6,MAXinBOX 16 v4 — 16 relay outputs,16,Relay 16,On/Off 32,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-17,7,MAXinBOX 16 v4 — 16 relay outputs,1,Relay 1,On/Off 17,,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-17,7,MAXinBOX 16 v4 — 16 relay outputs,2,Relay 2,On/Off 18,,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-17,7,MAXinBOX 16 v4 — 16 relay outputs,3,Relay 3,On/Off 19,,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-17,7,MAXinBOX 16 v4 — 16 relay outputs,4,Relay 4,On/Off 20,,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-17,7,MAXinBOX 16 v4 — 16 relay outputs,5,Relay 5,On/Off 21,,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-17,7,MAXinBOX 16 v4 — 16 relay outputs,6,Relay 6,On/Off 22,,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-17,7,MAXinBOX 16 v4 — 16 relay outputs,7,Relay 7,On/Off 23,,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-17,7,MAXinBOX 16 v4 — 16 relay outputs,8,Relay 8,On/Off 24,,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-17,7,MAXinBOX 16 v4 — 16 relay outputs,9,Relay 9,On/Off 25,,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-17,7,MAXinBOX 16 v4 — 16 relay outputs,10,Relay 10,On/Off 26,,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-17,7,MAXinBOX 16 v4 — 16 relay outputs,11,Relay 11,On/Off 27,,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-17,7,MAXinBOX 16 v4 — 16 relay outputs,12,Relay 12,On/Off 28,,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-17,7,MAXinBOX 16 v4 — 16 relay outputs,13,Relay 13,On/Off 29,,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-17,7,MAXinBOX 16 v4 — 16 relay outputs,14,Relay 14,On/Off 30,,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-17,7,MAXinBOX 16 v4 — 16 relay outputs,15,Relay 15,On/Off 31,,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-17,7,MAXinBOX 16 v4 — 16 relay outputs,16,Relay 16,On/Off 32,,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,1,Relay 1,On/Off 49,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,2,Relay 2,On/Off 50,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,3,Relay 3,On/Off 51,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,4,Relay 4,On/Off 52,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,5,Relay 5,On/Off 53,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,6,Relay 6,On/Off 54,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,7,Relay 7,On/Off 55,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,8,Relay 8,On/Off 56,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,9,Relay 9,On/Off 57,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,10,Relay 10,On/Off 58,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,11,Relay 11,On/Off 59,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,12,Relay 12,On/Off 60,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,13,Relay 13,On/Off 61,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,14,Relay 14,On/Off 62,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,15,Relay 15,On/Off 63,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,16,Relay 16,On/Off 64,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,17,Relay 17,On/Off 65,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,18,Relay 18,On/Off 66,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,19,Relay 19,On/Off 67,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,20,Relay 20,On/Off 68,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,21,Relay 21,On/Off 69,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,22,Relay 22,On/Off 70,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,23,Relay 23,On/Off 71,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-18,8,MAXinBOX 24 v2 — 24 relay outputs,24,Relay 24,On/Off 72,DPST-1-6,Lighting output,Sequential GA mapping; verify terminal assignment on electrical schedule
+P-07BC-0_DI-19,9,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,1,Shutter channel 1,1 Move,DPST-1-8,Blind/shutter motor,GA sequence mapping; verify physical motor wiring
+P-07BC-0_DI-19,9,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,2,Shutter channel 2,2 Move,DPST-1-8,Blind/shutter motor,GA sequence mapping; verify physical motor wiring
+P-07BC-0_DI-19,9,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,3,Shutter channel 3,3 Move,DPST-1-8,Blind/shutter motor,GA sequence mapping; verify physical motor wiring
+P-07BC-0_DI-19,9,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,4,Shutter channel 4,4 Move,DPST-1-8,Blind/shutter motor,GA sequence mapping; verify physical motor wiring
+P-07BC-0_DI-19,9,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,5,Shutter channel 5,5 Move,DPST-1-8,Blind/shutter motor,GA sequence mapping; verify physical motor wiring
+P-07BC-0_DI-19,9,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,6,Shutter channel 6,6 Move,DPST-1-8,Blind/shutter motor,GA sequence mapping; verify physical motor wiring
+P-07BC-0_DI-19,9,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,7,Shutter channel 7,7 Move,DPST-1-8,Blind/shutter motor,GA sequence mapping; verify physical motor wiring
+P-07BC-0_DI-19,9,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,8,Shutter channel 8,8 Move,DPST-1-8,Blind/shutter motor,GA sequence mapping; verify physical motor wiring
+P-07BC-0_DI-20,10,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,1,Shutter channel 1,9 Move,DPST-1-8,Blind/shutter motor,GA sequence mapping; verify physical motor wiring
+P-07BC-0_DI-20,10,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,2,Shutter channel 2,10 Move,DPST-1-8,Blind/shutter motor,GA sequence mapping; verify physical motor wiring
+P-07BC-0_DI-20,10,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,3,Shutter channel 3,11 Move,DPST-1-8,Blind/shutter motor,GA sequence mapping; verify physical motor wiring
+P-07BC-0_DI-20,10,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,4,Shutter channel 4,12 Move,DPST-1-8,Blind/shutter motor,GA sequence mapping; verify physical motor wiring
+P-07BC-0_DI-20,10,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,5,Shutter channel 5,13 Move,DPST-1-8,Blind/shutter motor,GA sequence mapping; verify physical motor wiring
+P-07BC-0_DI-20,10,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,6,Shutter channel 6,14 Move,DPST-1-8,Blind/shutter motor,GA sequence mapping; verify physical motor wiring
+P-07BC-0_DI-20,10,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,7,Shutter channel 7,15 Move,DPST-1-8,Blind/shutter motor,GA sequence mapping; verify physical motor wiring
+P-07BC-0_DI-20,10,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,8,Shutter channel 8,16 Move,DPST-1-8,Blind/shutter motor,GA sequence mapping; verify physical motor wiring
+P-07BC-0_DI-21,11,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,1,Shutter channel 1,17 Move,DPST-1-8,Blind/shutter motor,GA sequence mapping; verify physical motor wiring
+P-07BC-0_DI-21,11,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,2,Shutter channel 2,18 Move,DPST-1-8,Blind/shutter motor,GA sequence mapping; verify physical motor wiring
+P-07BC-0_DI-21,11,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,3,Shutter channel 3,19 Move,,Blind/shutter motor,Channel range follows GA naming; channels 3-8 on address 11 have no linked GAs
+P-07BC-0_DI-21,11,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,4,Shutter channel 4,20 Move,,Blind/shutter motor,Channel range follows GA naming; channels 3-8 on address 11 have no linked GAs
+P-07BC-0_DI-21,11,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,5,Shutter channel 5,21 Move,,Blind/shutter motor,Channel range follows GA naming; channels 3-8 on address 11 have no linked GAs
+P-07BC-0_DI-21,11,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,6,Shutter channel 6,22 Move,,Blind/shutter motor,Channel range follows GA naming; channels 3-8 on address 11 have no linked GAs
+P-07BC-0_DI-21,11,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,7,Shutter channel 7,23 Move,,Blind/shutter motor,Channel range follows GA naming; channels 3-8 on address 11 have no linked GAs
+P-07BC-0_DI-21,11,MAXinBOX SHUTTER 8CH v3 — 8 shutter channels,8,Shutter channel 8,24 Move,,Blind/shutter motor,Channel range follows GA naming; channels 3-8 on address 11 have no linked GAs
+P-07BC-0_DI-22,12,Logic controller (project exposes HVAC blocks),1,HVAC logical block 1,1 Temp.,DPST-7-7,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-22,12,Logic controller (project exposes HVAC blocks),1,HVAC logical block 1,1 Mode,DPST-20-105,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-22,12,Logic controller (project exposes HVAC blocks),1,HVAC logical block 1,1 Mode Info,DPST-20-105,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-22,12,Logic controller (project exposes HVAC blocks),1,HVAC logical block 1,1 Set Point,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-22,12,Logic controller (project exposes HVAC blocks),1,HVAC logical block 1,1 Set Point Info,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-22,12,Logic controller (project exposes HVAC blocks),1,HVAC logical block 1,1 Fan Info,DPST-5-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-22,12,Logic controller (project exposes HVAC blocks),1,HVAC logical block 1,1 Fan,DPST-5-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-22,12,Logic controller (project exposes HVAC blocks),1,HVAC logical block 1,1 ON/Off,DPST-1-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-22,12,Logic controller (project exposes HVAC blocks),1,HVAC logical block 1,1 ON/Off Info,DPST-1-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-22,12,Logic controller (project exposes HVAC blocks),1,HVAC logical block 1,1 Error Code,DPST-16-0,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-24,13,Logic controller (project exposes HVAC blocks),2,HVAC logical block 2,2 Temp.,DPST-7-7,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-24,13,Logic controller (project exposes HVAC blocks),2,HVAC logical block 2,2 Mode,DPST-20-105,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-24,13,Logic controller (project exposes HVAC blocks),2,HVAC logical block 2,2 Mode Info,DPST-20-105,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-24,13,Logic controller (project exposes HVAC blocks),2,HVAC logical block 2,2 Set Point,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-24,13,Logic controller (project exposes HVAC blocks),2,HVAC logical block 2,2 Set Point Info,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-24,13,Logic controller (project exposes HVAC blocks),2,HVAC logical block 2,2 Fan Info,DPST-5-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-24,13,Logic controller (project exposes HVAC blocks),2,HVAC logical block 2,2 Fan,DPST-5-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-24,13,Logic controller (project exposes HVAC blocks),2,HVAC logical block 2,2 ON/Off,DPST-1-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-24,13,Logic controller (project exposes HVAC blocks),2,HVAC logical block 2,2 ON/Off Info,DPST-1-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-24,13,Logic controller (project exposes HVAC blocks),2,HVAC logical block 2,2 Error Code,DPST-16-0,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-25,14,Logic controller (project exposes HVAC blocks),3,HVAC logical block 3,3 Temp.,DPST-7-7,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-25,14,Logic controller (project exposes HVAC blocks),3,HVAC logical block 3,3 Mode,DPST-20-105,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-25,14,Logic controller (project exposes HVAC blocks),3,HVAC logical block 3,3 Mode Info,DPST-20-105,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-25,14,Logic controller (project exposes HVAC blocks),3,HVAC logical block 3,3 Set Point,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-25,14,Logic controller (project exposes HVAC blocks),3,HVAC logical block 3,3 Set Point Info,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-25,14,Logic controller (project exposes HVAC blocks),3,HVAC logical block 3,3 Fan Info,DPST-5-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-25,14,Logic controller (project exposes HVAC blocks),3,HVAC logical block 3,3 Fan,DPST-5-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-25,14,Logic controller (project exposes HVAC blocks),3,HVAC logical block 3,3 ON/Off,DPST-1-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-25,14,Logic controller (project exposes HVAC blocks),3,HVAC logical block 3,3 ON/Off Info,DPST-1-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-25,14,Logic controller (project exposes HVAC blocks),3,HVAC logical block 3,3 Error Code,DPST-16-0,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-26,15,Logic controller (project exposes HVAC blocks),4,HVAC logical block 4,4 Temp.,DPST-7-7,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-26,15,Logic controller (project exposes HVAC blocks),4,HVAC logical block 4,4 Mode,DPST-20-105,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-26,15,Logic controller (project exposes HVAC blocks),4,HVAC logical block 4,4 Mode Info,DPST-20-105,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-26,15,Logic controller (project exposes HVAC blocks),4,HVAC logical block 4,4 Set Point,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-26,15,Logic controller (project exposes HVAC blocks),4,HVAC logical block 4,4 Set Point Info,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-26,15,Logic controller (project exposes HVAC blocks),4,HVAC logical block 4,4 Fan Info,DPST-5-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-26,15,Logic controller (project exposes HVAC blocks),4,HVAC logical block 4,4 Fan,DPST-5-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-26,15,Logic controller (project exposes HVAC blocks),4,HVAC logical block 4,4 ON/Off,DPST-1-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-26,15,Logic controller (project exposes HVAC blocks),4,HVAC logical block 4,4 ON/Off Info,DPST-1-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-26,15,Logic controller (project exposes HVAC blocks),4,HVAC logical block 4,4 Error Code,DPST-16-0,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-27,16,Logic controller (project exposes HVAC blocks),5,HVAC logical block 5,5 Temp.,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-27,16,Logic controller (project exposes HVAC blocks),5,HVAC logical block 5,5 Mode,DPST-20-105,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-27,16,Logic controller (project exposes HVAC blocks),5,HVAC logical block 5,5 Mode Info,DPST-20-105,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-27,16,Logic controller (project exposes HVAC blocks),5,HVAC logical block 5,5 Set Point,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-27,16,Logic controller (project exposes HVAC blocks),5,HVAC logical block 5,5 Set Point Info,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-27,16,Logic controller (project exposes HVAC blocks),5,HVAC logical block 5,5 Fan Info,DPST-5-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-27,16,Logic controller (project exposes HVAC blocks),5,HVAC logical block 5,5 Fan,DPST-5-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-27,16,Logic controller (project exposes HVAC blocks),5,HVAC logical block 5,5 ON/Off,DPST-1-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-27,16,Logic controller (project exposes HVAC blocks),5,HVAC logical block 5,5 ON/Off Info,DPST-1-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-27,16,Logic controller (project exposes HVAC blocks),5,HVAC logical block 5,5 Error Code,DPST-16-0,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-28,17,Logic controller (project exposes HVAC blocks),6,HVAC logical block 6,6 Temp.,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-28,17,Logic controller (project exposes HVAC blocks),6,HVAC logical block 6,6 Mode,DPST-20-105,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-28,17,Logic controller (project exposes HVAC blocks),6,HVAC logical block 6,6 Mode Info,DPST-20-105,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-28,17,Logic controller (project exposes HVAC blocks),6,HVAC logical block 6,6 Set Point,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-28,17,Logic controller (project exposes HVAC blocks),6,HVAC logical block 6,6 Set Point Info,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-28,17,Logic controller (project exposes HVAC blocks),6,HVAC logical block 6,6 Fan Info,DPST-5-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-28,17,Logic controller (project exposes HVAC blocks),6,HVAC logical block 6,6 Fan,DPST-5-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-28,17,Logic controller (project exposes HVAC blocks),6,HVAC logical block 6,6 ON/Off,DPST-1-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-28,17,Logic controller (project exposes HVAC blocks),6,HVAC logical block 6,6 ON/Off Info,DPST-1-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-28,17,Logic controller (project exposes HVAC blocks),6,HVAC logical block 6,6 Error Code,DPST-16-0,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-29,18,Logic controller (project exposes HVAC blocks),7,HVAC logical block 7,7 Temp.,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-29,18,Logic controller (project exposes HVAC blocks),7,HVAC logical block 7,7 Mode,DPST-20-105,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-29,18,Logic controller (project exposes HVAC blocks),7,HVAC logical block 7,7 Mode Info,DPST-20-105,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-29,18,Logic controller (project exposes HVAC blocks),7,HVAC logical block 7,7 Set Point,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-29,18,Logic controller (project exposes HVAC blocks),7,HVAC logical block 7,7 Set Point Info,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-29,18,Logic controller (project exposes HVAC blocks),7,HVAC logical block 7,7 Fan Info,DPST-5-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-29,18,Logic controller (project exposes HVAC blocks),7,HVAC logical block 7,7 Fan,DPST-5-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-29,18,Logic controller (project exposes HVAC blocks),7,HVAC logical block 7,7 ON/Off,DPST-1-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-29,18,Logic controller (project exposes HVAC blocks),7,HVAC logical block 7,7 ON/Off Info,DPST-1-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-29,18,Logic controller (project exposes HVAC blocks),7,HVAC logical block 7,7 Error Code,DPST-16-0,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-30,19,Logic controller (project exposes HVAC blocks),8,HVAC logical block 8,8 Temp.,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-30,19,Logic controller (project exposes HVAC blocks),8,HVAC logical block 8,8 Mode,DPST-20-105,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-30,19,Logic controller (project exposes HVAC blocks),8,HVAC logical block 8,8 Mode Info,DPST-20-105,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-30,19,Logic controller (project exposes HVAC blocks),8,HVAC logical block 8,8 Set Point,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-30,19,Logic controller (project exposes HVAC blocks),8,HVAC logical block 8,8 Set Point Info,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-30,19,Logic controller (project exposes HVAC blocks),8,HVAC logical block 8,8 Fan Info,DPST-5-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-30,19,Logic controller (project exposes HVAC blocks),8,HVAC logical block 8,8 Fan,DPST-5-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-30,19,Logic controller (project exposes HVAC blocks),8,HVAC logical block 8,8 ON/Off,DPST-1-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-30,19,Logic controller (project exposes HVAC blocks),8,HVAC logical block 8,8 ON/Off Info,DPST-1-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-30,19,Logic controller (project exposes HVAC blocks),8,HVAC logical block 8,8 Error Code,DPST-16-0,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-38,20,Logic controller (project exposes HVAC blocks),9,HVAC logical block 9,9 Temp.,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-38,20,Logic controller (project exposes HVAC blocks),9,HVAC logical block 9,9 Mode,DPST-20-105,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-38,20,Logic controller (project exposes HVAC blocks),9,HVAC logical block 9,9 Mode Info,DPST-20-105,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-38,20,Logic controller (project exposes HVAC blocks),9,HVAC logical block 9,9 Set Point,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-38,20,Logic controller (project exposes HVAC blocks),9,HVAC logical block 9,9 Set Point Info,DPST-9-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-38,20,Logic controller (project exposes HVAC blocks),9,HVAC logical block 9,9 Fan Info,DPST-5-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-38,20,Logic controller (project exposes HVAC blocks),9,HVAC logical block 9,9 Fan,DPST-5-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-38,20,Logic controller (project exposes HVAC blocks),9,HVAC logical block 9,9 ON/Off,DPST-1-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-38,20,Logic controller (project exposes HVAC blocks),9,HVAC logical block 9,9 ON/Off Info,DPST-1-1,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-38,20,Logic controller (project exposes HVAC blocks),9,HVAC logical block 9,9 Error Code,DPST-16-0,HVAC logic,Logical/software function from project; not a physical HVAC power output
+P-07BC-0_DI-43,23,IRSC — A/C infrared controller,,IR emitter/controller,,,Air-conditioner IR,Device type is explicit; no linked GAs in current DeviceInstance
+P-07BC-0_DI-44,24,IRSC — A/C infrared controller,,IR emitter/controller,,,Air-conditioner IR,Device type is explicit; no linked GAs in current DeviceInstance
+P-07BC-0_DI-45,25,IRSC — A/C infrared controller,,IR emitter/controller,,,Air-conditioner IR,Device type is explicit; no linked GAs in current DeviceInstance
+P-07BC-0_DI-46,26,IRSC — A/C infrared controller,,IR emitter/controller,,,Air-conditioner IR,Device type is explicit; no linked GAs in current DeviceInstance
+P-07BC-0_DI-57,27,Tecla 55 X4 — capacitive keypad,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-58,28,Tecla 55 X4 — capacitive keypad,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-59,29,Tecla 55 X4 — capacitive keypad,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-60,30,Tecla 55 X4 — capacitive keypad,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-61,31,Tecla 55 X4 — capacitive keypad,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-62,32,Tecla 55 X4 — capacitive keypad,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-63,33,Tecla 55 X6 — capacitive keypad,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-64,34,Tecla 55 X6 — capacitive keypad,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-72,35,Tecla 55 X6 — capacitive keypad,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-73,36,Tecla 55 X6 — capacitive keypad,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-65,37,Touch-MyDesign Plus 4,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-66,38,Touch-MyDesign Plus 4,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-70,39,Touch-MyDesign Plus 6,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-74,40,Touch-MyDesign Plus 6,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-71,41,Touch-MyDesign Plus 8,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-86,42,Z35 v2 — touch panel / thermostat,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-85,43,Z35 v2 — touch panel / thermostat,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-87,44,Z35 v2 — touch panel / thermostat,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-88,45,Z35 v2 — touch panel / thermostat,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-89,46,Z35 v2 — touch panel / thermostat,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-90,47,Z35 v2 — touch panel / thermostat,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-91,48,Z35 v2 — touch panel / thermostat,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-92,49,Z35 v2 — touch panel / thermostat,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-98,50,Z35 v2 — touch panel / thermostat,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
+P-07BC-0_DI-99,51,Z100 — 10-inch touch panel,Lighting,265 linked objects,"D1 Dimming, D1 Dimming  Info, D1 ON/Off, D1 ON/Off Info, D10 Dimming, D10 Dimming Info, D10 ON/Off, D10 ON/Off Info, D11 Dimming, D11 ON/Off, D11 ON/Off  Info, D12 Dimming, D12 Dimming Info, D12 ON/Off, D12 ON/Off Info, D13 Dimming, D13 Dimming Info, D13 ON/Off, D13 ON/Off Info, D14 Dimming, D14 Dimming Info, D14 ON/Off, D14 ON/Off Info, D15 Dimming, D15 Dimming Info, D15 ON/Off, D15 ON/Off Info, D16 Dimming, D16 Dimming Info, D16 ON/Off, D16 ON/Off Info, D17 Dimming, D17 Dimming Info, D17 ON/Off, D17 ON/Off Info, D18 Dimming, D18 Dimming Info, D18 ON/Off, D18 ON/Off Info, D19 Dimming, D19 Dimming Info, D19 ON/Off, D19 ON/Off Info, D2 Dimming, D2 Dimming  Info, D2 ON/Off, D2 ON/Off Info, D20 Dimming, D20 Dimming Info, D20 ON/Off, D20 ON/Off Info, D21 Dimming, D21 Dimming Info, D21 ON/Off, D21 ON/Off Info, D22 Dimming, D22 Dimming Info, D22 ON/Off, D22 ON/Off Info, D23 Dimming, D23 Dimming Info, D23 ON/Off, D23 ON/Off Info, D24 Dimming, D24 Dimming Info, D24 ON/Off, D24 ON/Off Info, D25 Dimming, D25 Dimming Info, D25 ON/Off, D25 ON/Off Info, D26 Dimming, D26 Dimming Info, D26 ON/Off, D26 ON/Off Info, D27 Dimming, D27 Dimming Info, D27 ON/Off, D27 ON/Off Info, D28 Dimming, D28 Dimming Info, D28 ON/Off, D28 ON/Off Info, D29 Dimming, D29 Dimming Info, D29 ON/Off, D29 ON/Off Info, D3 Dimming, D3 Dimming Info, D3 ON/Off, D3 ON/Off Info, D30 Dimming, D30 Dimming Info, D30 ON/Off, D30 ON/Off Info, D31 Dimming, D31 Dimming Info, D31 ON/Off, D31 ON/Off Info, D32 Dimming, D32 Dimming Info, D32 ON/Off, D32 ON/Off Info, D33 Dimming, D33 Dimming Info, D33 ON/Off, D33 ON/Off Info, D34 Dimming, D34 Dimming Info, D34 ON/Off, D34 ON/Off Info, D35 Dimming, D35 Dimming Info, D35 ON/Off, D35 ON/Off Info, D36 Dimming, D36 Dimming Info, D36 ON/Off, D36 ON/Off Info, D37 Dimming, D37 Dimming Info, D37 ON/Off, D37 ON/Off Info, D38 Dimming, D38 Dimming Info, D38 ON/Off, D38 ON/Off Info, D39 Dimming, D39 Dimming Info, D39 ON/Off, D39 ON/Off Info, D4 ON/Off, D4 ON/Off Info, D40 Dimming, D40 Dimming Info, D40 ON/Off, D40 ON/Off Info, D41 Dimming, D41 Dimming Info, D41 ON/Off, D41 ON/Off Info, D42 Dimming, D42 Dimming Info, D42 ON/Off, D42 ON/Off Info, D43 Dimming, D43 Dimming Info, D43 ON/Off, D43 ON/Off Info, D44 Dimming, D44 Dimming Info, D44 ON/Off, D44 ON/Off Info, D45 Dimming, D45 Dimming Info, D45 ON/Off, D45 ON/Off Info, D46 Dimming, D46 Dimming Info, D46 ON/Off, D46 ON/Off Info, D47 Dimming, D47 Dimming Info, D47 ON/Off, D47 ON/Off Info, D48 Dimming, D48 Dimming Info, D48 ON/Off, D48 ON/Off Info, D5 Dimming, D5 Dimming Info, D5 ON/Off, D5 ON/Off Info, D6 Dimming, D6 Dimming Info, D6 ON/Off, D6 ON/Off Info, D7 Dimming, D7 Dimming Info, D7 ON/Off, D7 ON/Off  Info, D8 Dimming, D8 Dimming Info, D8 ON/Off, D8 ON/Off Info, D9 Dimming, D9 Dimming Info, D9 ON/Off, D9 ON/Off  Info, On/Off 24, On/Off 24 Info, On/Off 25, On/Off 25 Info, On/Off 26, On/Off 26 Info, On/Off 27, On/Off 27 Info, On/Off 28, On/Off 28 Info, On/Off 29, On/Off 29 Info, On/Off 30, On/Off 30 Info, On/Off 31, On/Off 31 Info, On/Off 32, On/Off 32 Info, On/Off 33, On/Off 33 Info, On/Off 34, On/Off 34 Info, On/Off 35, On/Off 35 Info, On/Off 36, On/Off 36 Info, On/Off 37, On/Off 37 Info, On/Off 38, On/Off 38 Info, On/Off 39, On/Off 39 Info, On/Off 40, On/Off 40 Info, On/Off 41, On/Off 41 Info, On/Off 42, On/Off 42 Info, On/Off 43, On/Off 43 Info, On/Off 44, On/Off 44 Info, On/Off 45, On/Off 45 Info, On/Off 46, On/Off 46 Info, On/Off 47, On/Off 47 Info, On/Off 48, On/Off 48 Info, On/Off 49, On/Off 49 Info, On/Off 50, On/Off 50 Info, On/Off 51, On/Off 51 Info, On/Off 52, On/Off 52 Info, On/Off 53, On/Off 53 Info, On/Off 54, On/Off 54 Info, On/Off 55, On/Off 55 Info, On/Off 56, On/Off 56 Info, On/Off 57, On/Off 57 Info, On/Off 58, On/Off 58 Info, On/Off 59, On/Off 59 Info, On/Off 60, On/Off 60 Info, On/Off 9, On/Off 9 Info",,Control / visualization,Project links show this panel as a control point; it is not a load output
+P-07BC-0_DI-99,51,Z100 — 10-inch touch panel,Blinds,57 linked objects,"1 Move, 1 Status, 1 Stop, 10 Move, 10 Status, 10 Stop, 11 Move, 11 Status, 11 Stop, 12 Move, 12 Status, 12 Stop, 13 Move, 13 Status, 13 Stop, 14 Move, 14 Status, 14 Stop, 15 Move, 15 Status, 15 Stop, 16 Move, 16 Status, 16 Stop, 17 Move, 17 Status, 17 Stop, 18 Move, 18 Status, 18 Stop, 2 Move, 2 Status, 2 Stop, 3 Move, 3 Status, 3 Stop, 4 Move, 4 Status, 4 Stop, 5 Move, 5 Status, 5 Stop, 6 Move, 6 Status, 6 Stop, 7 Move, 7 Status, 7 Stop, 8 Move, 8 Status, 8 Stop, 9 Move, 9 Status, 9 Stop, Move Garage Info, Stop Garage, Stop Garage Info",,Control / visualization,Project links show this panel as a control point; it is not a load output
+P-07BC-0_DI-99,51,Z100 — 10-inch touch panel,Garage,3 linked objects,"Move Garage Info, Stop Garage, Stop Garage Info",,Control / visualization,Project links show this panel as a control point; it is not a load output
+P-07BC-0_DI-99,51,Z100 — 10-inch touch panel,HVAC,82 linked objects,"1 Fan, 1 Fan Info, 1 Mode, 1 Mode Info, 1 Set Point, 1 Set Point Info, 1 Temp., 10 Fan, 10 Fan Info, 10 Mode, 10 Mode Info, 10 Set Point, 10 Set Point Info, 10 Temp., 11 Fan, 11 Mode, 11 Set Point, 11 Temp., 12 Fan, 12 Mode, 12 Set Point, 12 Temp., 13 Fan, 13 Mode, 13 Set Point, 13 Temp., 2 Fan, 2 Fan Info, 2 Mode, 2 Mode Info, 2 Set Point, 2 Set Point Info, 2 Temp., 3 Fan, 3 Fan Info, 3 Mode, 3 Mode Info, 3 Set Point, 3 Set Point Info, 3 Temp., 4 Fan, 4 Fan Info, 4 Mode, 4 Mode Info, 4 Set Point, 4 Set Point Info, 4 Temp., 5 Fan, 5 Fan Info, 5 Mode, 5 Mode Info, 5 Set Point, 5 Set Point Info, 5 Temp., 6 Fan, 6 Fan Info, 6 Mode, 6 Mode Info, 6 Set Point, 6 Set Point Info, 6 Temp., 7 Fan, 7 Fan Info, 7 Mode, 7 Mode Info, 7 Set Point, 7 Set Point Info, 7 Temp., 8 Fan, 8 Fan Info, 8 Mode, 8 Mode Info, 8 Set Point, 8 Set Point Info, 8 Temp., 9 Fan, 9 Fan Info, 9 Mode, 9 Mode Info, 9 Set Point, 9 Set Point Info, 9 Temp.",,Control / visualization,Project links show this panel as a control point; it is not a load output
+P-07BC-0_DI-100,52,EyeZen TP v2 — motion/lux sensor,,Ceiling presence/lux sensor,,,Sensors,Device type is explicit; no linked GAs in current DeviceInstance
+P-07BC-0_DI-101,53,EyeZen TP v2 — motion/lux sensor,,Ceiling presence/lux sensor,,,Sensors,Device type is explicit; no linked GAs in current DeviceInstance
+P-07BC-0_DI-102,54,EyeZen TP v2 — motion/lux sensor,,Ceiling presence/lux sensor,,,Sensors,Device type is explicit; no linked GAs in current DeviceInstance
+P-07BC-0_DI-103,55,EyeZen TP v2 — motion/lux sensor,,Ceiling presence/lux sensor,,,Sensors,Device type is explicit; no linked GAs in current DeviceInstance
+P-07BC-0_DI-10,,KUPSupply 640 mA KNX power supply,,,,,Control/device,No physical terminal-to-load mapping is encoded in the project instance
