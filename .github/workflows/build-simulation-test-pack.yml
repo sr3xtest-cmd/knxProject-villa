@@ -1,0 +1,27 @@
+name: Build KNX simulation test pack
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/build_simulation_test_pack.py"
+      - ".github/workflows/build-simulation-test-pack.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate simulation test pack
+        run: python3 scripts/build_simulation_test_pack.py
+      - name: Commit generated test pack
+        run: |
+          git config user.name "KNX Project Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Burooj_Simulation_Test_Pack
+          git diff --cached --quiet && exit 0
+          git commit -m "Build KNX simulation test pack"
+          git push
