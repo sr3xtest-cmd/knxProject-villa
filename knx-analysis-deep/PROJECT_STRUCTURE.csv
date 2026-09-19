@@ -1,0 +1,6 @@
+Tag,Id,Name,Address,Description,Other Attributes
+KNX,,,,,"{""CreatedBy"": ""ETS6"", ""ToolVersion"": ""6.2.7302.0""}"
+Project,P-07BC,,,,{}
+ProjectInformation,,(1) Burooj Square Villa,,,"{""GroupAddressStyle"": ""ThreeLevel"", ""LastModified"": ""2024-10-20T13:50:24.2251576Z"", ""ProjectStart"": ""2024-09-05T11:22:18.4349379Z"", ""Comment"": """", ""LastUsedPuid"": ""1397"", ""Guid"": ""0ad96ff0-662f-48d6-8ac5-d8830aaebc14"", ""ProjectType"": ""Villa""}"
+UserFiles,,,,,{}
+UserFile,,,,,"{""Filename"": ""M0071-A00CC.etsapp"", ""Comment"": ""DCA""}"

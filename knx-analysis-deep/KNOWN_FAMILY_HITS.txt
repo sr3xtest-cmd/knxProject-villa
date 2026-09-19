@@ -1,0 +1,15 @@
+KIPI SC	0
+IRSC Plus	0
+MAXinBOX	0
+Tecla 55	0
+TMD Plus	0
+Z35	36
+Z70	0
+Z100	3
+EyeZen	0
+DALI	2
+Zennio	0
+KUPSupply	0
+KNX IP	0
+Fancoil	0
+Shutter	58
