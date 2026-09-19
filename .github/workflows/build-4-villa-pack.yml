@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - ".github/workflows/build-4-villa-pack.yml"
+      - "scripts/build_4_villa_pack.py"
 
 permissions:
   contents: write
@@ -16,149 +17,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build and validate 4-villa pack
-        shell: bash
-        run: |
-          set -euo pipefail
-          python3 - <<'PY'
-          from pathlib import Path
-          import zipfile
-          import xml.etree.ElementTree as ET
-          import hashlib
-          import shutil
-          import csv
-          import json
+      - name: Build and validate
+        run: python3 scripts/build_4_villa_pack.py
 
-          repo = Path(".")
-          sources = list(repo.glob("*.knxproj"))
-          sources = [p for p in sources if not p.name.startswith("Burooj_Square_Villa_V0")]
-          if len(sources) != 1:
-              raise SystemExit(f"Expected exactly one source .knxproj, found {len(sources)}: {[p.name for p in sources]}")
-          src = sources[0]
-
-          def sha256(p):
-              h = hashlib.sha256()
-              with p.open("rb") as f:
-                  for chunk in iter(lambda: f.read(1024*1024), b""):
-                      h.update(chunk)
-              return h.hexdigest()
-
-          with zipfile.ZipFile(src, "r") as z:
-              bad = z.testzip()
-              if bad:
-                  raise SystemExit(f"Source ZIP integrity check failed at {bad}")
-              names = set(z.namelist())
-              for required in ["P-07BC/project.xml", "P-07BC/0.xml", "knx_master.xml", "P-07BC.signature", "P-07BC.certificate"]:
-                  if required not in names:
-                      raise SystemExit(f"Required project entry missing: {required}")
-
-              project_xml = ET.fromstring(z.read("P-07BC/project.xml"))
-              xml0 = ET.fromstring(z.read("P-07BC/0.xml"))
-
-              def local(tag):
-                  return tag.split("}", 1)[-1] if "}" in tag else tag
-
-              devices = [e for e in xml0.iter() if local(e.tag) == "DeviceInstance"]
-              gas = [e for e in xml0.iter() if local(e.tag) == "GroupAddress"]
-              tool_version = project_xml.get("ToolVersion") or project_xml.findtext(".//ToolVersion")
-              pi = next((e for e in project_xml.iter() if local(e.tag)=="ProjectInformation"), None)
-              project_name = pi.get("Name","") if pi is not None else ""
-
-              product_refs = {}
-              for d in devices:
-                  ref = d.attrib.get("ProductRefId","")
-                  product_refs[ref] = product_refs.get(ref,0)+1
-
-          source_sha = sha256(src)
-
-          out = repo / "Burooj_4Villas_Pack"
-          if out.exists():
-              shutil.rmtree(out)
-          out.mkdir()
-
-          villa_names = {
-              1: "Burooj_Square_Villa_V01.knxproj",
-              2: "Burooj_Square_Villa_V02.knxproj",
-              3: "Burooj_Square_Villa_V03.knxproj",
-              4: "Burooj_Square_Villa_V04.knxproj",
-          }
-
-          rows = []
-          for n, name in villa_names.items():
-              dst = out / name
-              shutil.copy2(src, dst)
-              dst_sha = sha256(dst)
-              rows.append([f"Villa {n}", name, dst.stat().st_size, source_sha == dst_sha, dst_sha])
-
-          readme = f"""# Burooj Square — 4 Villa KNX Pack
-
-Source project: {src.name}
-
-Validated source facts:
-- ETS ToolVersion: {tool_version or 'not found'}
-- Project title in source: {project_name}
-- DeviceInstance count: {len(devices)}
-- GroupAddress count: {len(gas)}
-- Source SHA-256: {source_sha}
-
-## What was built
-
-Four standalone ETS .knxproj files were created as exact byte-for-byte copies of the verified source project:
-
-- Villa 01: {villa_names[1]}
-- Villa 02: {villa_names[2]}
-- Villa 03: {villa_names[3]}
-- Villa 04: {villa_names[4]}
-
-Each file preserves the original ETS project database, device application references, group-address links, topology, DCA user file, certificates/signatures, and vendor product XML exactly as supplied.
-
-## Important variant note
-
-The supplied KNX project contains one villa template, not four separately authored villas. The source data does not document the exact room/device differences for one villa versus the other three. Therefore no unverified device, group-address, parameter, or topology differences were invented.
-
-This pack is the safest ready-to-open baseline: Villa 01 is the original verified template and Villas 02–04 are exact copies. Any known physical/design difference for one villa can be applied later as a controlled delta without replacing the real device applications.
-
-## Validation
-
-Every output file:
-- passed ZIP integrity testing;
-- contains P-07BC/project.xml, P-07BC/0.xml, knx_master.xml, the project signature and certificate;
-- parses as XML;
-- has the same DeviceInstance and GroupAddress counts as the source;
-- is byte-for-byte identical to the source (SHA-256).
-"""
-          (out / "README.md").write_text(readme, encoding="utf-8")
-
-          with (out / "VALIDATION.csv").open("w", newline="", encoding="utf-8") as f:
-              w = csv.writer(f)
-              w.writerow(["Villa","File","Bytes","MatchesSource","SHA256"])
-              w.writerows(rows)
-
-          with (out / "DEVICE_PRODUCT_COUNTS.csv").open("w", newline="", encoding="utf-8") as f:
-              w = csv.writer(f)
-              w.writerow(["ProductRefId","DeviceCount"])
-              for k,v in sorted(product_refs.items(), key=lambda kv:(-kv[1], kv[0])):
-                  w.writerow([k,v])
-
-          print(readme)
-          print("Validation rows:", json.dumps(rows, indent=2))
-
-          pack = repo / "Burooj_Square_4_Villas_KNX_Pack.zip"
-          if pack.exists():
-              pack.unlink()
-          with zipfile.ZipFile(pack, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as z:
-              for p in sorted(out.rglob("*")):
-                  if p.is_file():
-                      z.write(p, p.relative_to(repo))
-          print(f"Created {pack} ({pack.stat().st_size:,} bytes)")
-          PY
-
-      - name: Commit 4-villa pack
-        shell: bash
+      - name: Commit generated pack
         run: |
           git config user.name "KNX Project Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add Burooj_4Villas_Pack Burooj_Square_4_Villas_KNX_Pack.zip
           git diff --cached --quiet && exit 0
-          git commit -m "Build 4-villa KNX project pack from verified villa template"
+          git commit -m "Build 4-villa KNX project pack"
           git push
