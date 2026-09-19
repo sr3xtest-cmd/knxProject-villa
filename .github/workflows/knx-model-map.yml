@@ -1,0 +1,155 @@
+name: KNX model mapping
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/knx-model-map.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  map:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build detailed model map
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import zipfile, xml.etree.ElementTree as ET, csv, json, re, shutil, collections
+
+          projects=list(Path(".").glob("*.knxproj"))
+          if not projects: raise SystemExit("No .knxproj found")
+          project=projects[0]
+          out=Path("knx-model-map")
+          if out.exists(): shutil.rmtree(out)
+          out.mkdir()
+
+          with zipfile.ZipFile(project) as z:
+              data=z.read("P-07BC/0.xml")
+
+          root=ET.fromstring(data)
+
+          def local(t): return t.split("}",1)[-1] if "}" in t else t
+          def attrs(e): return {local(k):v for k,v in e.attrib.items()}
+
+          # parent map
+          parent={}
+          for p in root.iter():
+              for c in list(p):
+                  parent[c]=p
+
+          # Map all elements referencing each DeviceInstance ID.
+          devices=[]
+          for e in root.iter():
+              if local(e.tag)=="DeviceInstance":
+                  a=attrs(e)
+                  devices.append((a.get("Id",""),a.get("Address",""),a.get("Name",""),a.get("ProductRefId",""),a.get("Hardware2ProgramRefId",""),a.get("Puid","")))
+
+          def path_to_root(e, limit=12):
+              path=[]
+              p=parent.get(e)
+              while p is not None and len(path)<limit:
+                  a=attrs(p)
+                  path.append((local(p.tag),a))
+                  p=parent.get(p)
+              return path
+
+          refs=[]
+          for did,addr,name,prod,hw,puid in devices:
+              matched=[]
+              token=did
+              for e in root.iter():
+                  a=attrs(e)
+                  blob=(local(e.tag)+" "+json.dumps(a,ensure_ascii=False))
+                  if token and token in blob and local(e.tag)!="DeviceInstance":
+                      matched.append((local(e.tag),json.dumps(a,ensure_ascii=False),path_to_root(e,6)))
+              refs.append((did,addr,name,prod,hw,puid,matched))
+
+          with (out/"DEVICE_REFERENCE_MAP.txt").open("w",encoding="utf-8") as f:
+              for did,addr,name,prod,hw,puid,matched in refs:
+                  f.write(f"DEVICE {did} ADDRESS={addr} NAME={name} PRODUCT={prod} HWPROG={hw} PUID={puid}\n")
+                  for tag,a,path in matched[:80]:
+                      f.write(f"  REF {tag} {a}\n")
+                      f.write("    PATH " + " > ".join(t for t,_ in path) + "\n")
+                  f.write("\n")
+
+          # Extract topology-related XML with DeviceInstanceRef and Node.
+          with (out/"TOPOLOGY_REFS.csv").open("w",newline="",encoding="utf-8") as f:
+              w=csv.writer(f)
+              w.writerow(["Tag","Id","Address","Number","Name","RefId","DeviceInstanceId","GroupObjectInstances","ParentTags","Attributes"])
+              for e in root.iter():
+                  t=local(e.tag)
+                  if t not in {"Area","Line","Segment","Node","DeviceInstanceRef","Topology"}:
+                      continue
+                  a=attrs(e)
+                  blob=json.dumps(a,ensure_ascii=False)
+                  dids=re.findall(r"P-07BC-0_DI-\d+",blob)
+                  if t=="DeviceInstanceRef" or dids:
+                      p=parent.get(e)
+                      ps=[]
+                      for _ in range(6):
+                          if p is None: break
+                          ps.append(local(p.tag)); p=parent.get(p)
+                      w.writerow([t,a.get("Id",""),a.get("Address",""),a.get("Number",""),a.get("Name",""),a.get("RefId","")," ".join(dids),a.get("GroupObjectInstances","")," > ".join(ps),blob])
+
+          # Extract Spaces/Locations and any device refs within them.
+          with (out/"LOCATION_REFS.csv").open("w",newline="",encoding="utf-8") as f:
+              w=csv.writer(f)
+              w.writerow(["Tag","Id","Name","Description","RefId","DeviceRefs","ParentTags","Attributes"])
+              for e in root.iter():
+                  t=local(e.tag)
+                  if t not in {"Space","Node","Location","LocationElement"}:
+                      continue
+                  a=attrs(e)
+                  blob=json.dumps(a,ensure_ascii=False)
+                  dids=sorted(set(re.findall(r"P-07BC-0_DI-\d+",blob)))
+                  p=parent.get(e); ps=[]
+                  for _ in range(6):
+                      if p is None: break
+                      ps.append(local(p.tag)); p=parent.get(p)
+                  if t=="Space" or dids or a.get("RefId"):
+                      w.writerow([t,a.get("Id",""),a.get("Name",""),a.get("Description",""),a.get("RefId","")," ".join(dids)," > ".join(ps),blob])
+
+          # Summarize product/application refs from ProductRefId + Hardware2ProgramRefId.
+          prod=collections.Counter()
+          prog=collections.Counter()
+          for _,_,_,p,h,_ in devices:
+              prod[p]+=1; prog[h]+=1
+          with (out/"PRODUCT_APPLICATION_COUNTS.csv").open("w",newline="",encoding="utf-8") as f:
+              w=csv.writer(f); w.writerow(["ProductRefId","DeviceCount"]); w.writerows(prod.most_common())
+          with (out/"HARDWARE_PROGRAM_COUNTS.csv").open("w",newline="",encoding="utf-8") as f:
+              w=csv.writer(f); w.writerow(["Hardware2ProgramRefId","DeviceCount"]); w.writerows(prog.most_common())
+
+          # First/last IDs and ranges for Puid/Address
+          addrs=[]
+          puids=[]
+          for did,a,n,p,h,puid in devices:
+              try:
+                  addrs.append(int(a))
+              except: pass
+              try: puids.append(int(puid))
+              except: pass
+          with (out/"SUMMARY.md").open("w",encoding="utf-8") as f:
+              f.write("# KNX model mapping\n\n")
+              f.write(f"- Project: {project.name}\n")
+              f.write(f"- DeviceInstance: {len(devices)}\n")
+              f.write(f"- Address range: {min(addrs) if addrs else 'n/a'}..{max(addrs) if addrs else 'n/a'}\n")
+              f.write(f"- Puid range in devices: {min(puids) if puids else 'n/a'}..{max(puids) if puids else 'n/a'}\n")
+              f.write("- See DEVICE_REFERENCE_MAP.txt for reference contexts.\n")
+              f.write("- See TOPOLOGY_REFS.csv for topology references.\n")
+              f.write("- See LOCATION_REFS.csv for space/location references.\n")
+              f.write("- See PRODUCT_APPLICATION_COUNTS.csv and HARDWARE_PROGRAM_COUNTS.csv for exact application IDs.\n")
+          PY
+      - name: Commit model map
+        shell: bash
+        run: |
+          git config user.name "KNX Project Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add knx-model-map
+          git diff --cached --quiet && exit 0
+          git commit -m "Add detailed KNX model mapping"
+          git push
