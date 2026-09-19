@@ -1,0 +1,135 @@
+name: Deep inspect KNX project
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/deep-inspect-knx-project.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  deep-inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract structured KNX data
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import zipfile, xml.etree.ElementTree as ET, csv, collections, re, json, shutil
+
+          repo = Path(".")
+          projects = list(repo.glob("*.knxproj"))
+          if not projects:
+              raise SystemExit("No .knxproj found at repo root.")
+          project = projects[0]
+          out = repo / "knx-analysis-deep"
+          if out.exists():
+              shutil.rmtree(out)
+          out.mkdir()
+
+          with zipfile.ZipFile(project, "r") as z:
+              names = z.namelist()
+              wanted = ["P-07BC/project.xml", "P-07BC/0.xml"]
+              xml_data = {n:z.read(n) for n in wanted if n in names}
+
+          def local(tag):
+              return tag.split("}",1)[-1] if "}" in tag else tag
+
+          # XML structure statistics
+          for fname, data in xml_data.items():
+              root = ET.fromstring(data)
+              tagc=collections.Counter(local(e.tag) for e in root.iter())
+              attrc=collections.Counter(k.split("}",1)[-1] if "}" in k else k for e in root.iter() for k in e.attrib)
+              base=fname.split("/")[-1]
+              with (out/f"{base}.TAG_COUNTS.csv").open("w",newline="",encoding="utf-8") as f:
+                  w=csv.writer(f); w.writerow(["Tag","Count"]); w.writerows(tagc.most_common())
+              with (out/f"{base}.ATTRIBUTE_COUNTS.csv").open("w",newline="",encoding="utf-8") as f:
+                  w=csv.writer(f); w.writerow(["Attribute","Count"]); w.writerows(attrc.most_common())
+
+          # Project topology/name extraction
+          pxml=ET.fromstring(xml_data["P-07BC/project.xml"])
+          with (out/"PROJECT_STRUCTURE.csv").open("w",newline="",encoding="utf-8") as f:
+              w=csv.writer(f); w.writerow(["Tag","Id","Name","Address","Description","Other Attributes"])
+              for e in pxml.iter():
+                  tag=local(e.tag)
+                  if tag in {"ProjectTrace","ProjectTraces"}: continue
+                  if tag in {"ProjectInformation","Project","UserFile","UserFiles","KNX"} or any(k in e.attrib for k in ["Name","Address","Description","ProjectType","GroupAddressStyle"]):
+                      attrs={local(k):v for k,v in e.attrib.items()}
+                      w.writerow([tag,attrs.get("Id",""),attrs.get("Name",""),attrs.get("Address",""),attrs.get("Description",""),json.dumps({k:v for k,v in attrs.items() if k not in {"Id","Name","Address","Description"}},ensure_ascii=False)])
+
+          # Full group address inventory
+          root=ET.fromstring(xml_data["P-07BC/0.xml"])
+          ga=[]
+          for e in root.iter():
+              if local(e.tag)=="GroupAddress":
+                  a={local(k):v for k,v in e.attrib.items()}
+                  ga.append([a.get("Id",""),a.get("Address",""),a.get("Name",""),a.get("DatapointType",""),json.dumps(a,ensure_ascii=False)])
+          with (out/"GROUP_ADDRESSES.csv").open("w",newline="",encoding="utf-8") as f:
+              w=csv.writer(f); w.writerow(["Id","RawAddress","Name","DatapointType","Attributes"]); w.writerows(ga)
+
+          # Device-like element inventory: detect elements/ancestors containing product/program/address references.
+          device=[]
+          interesting={"DeviceInstance","Device","DeviceInstanceRef","Hardware2ProgramRefId","ProductRefId","IndividualAddress","PhysicalAddress","Address","Channel","Function","ComObjectInstanceRef","GroupAddressRef","GroupAddressRefId"}
+          for e in root.iter():
+              tag=local(e.tag)
+              attrs={local(k):v for k,v in e.attrib.items()}
+              hay=(tag+" "+json.dumps(attrs,ensure_ascii=False)+" "+(e.text or "")).lower()
+              if any(x.lower() in hay for x in ["hardware2programrefid","productrefid","individualaddress","physicaladdress","deviceinstance"]) and tag!="GroupAddress":
+                  selected={k:v for k,v in attrs.items() if k.lower() in {
+                      "id","name","address","individualaddress","physicaladdress","productrefid",
+                      "hardware2programrefid","description","function","number","channel","puid",
+                      "deviceinstance","buildingpartrefid","topology"
+                  }}
+                  device.append([tag,json.dumps(selected,ensure_ascii=False)])
+          with (out/"DEVICE_LIKE_ELEMENTS.csv").open("w",newline="",encoding="utf-8") as f:
+              w=csv.writer(f); w.writerow(["Tag","Selected Attributes"]); w.writerows(device)
+
+          # Search for known Zennio family codes/names in the project XML.
+          families=[
+            "KIPI SC","IRSC Plus","MAXinBOX","Tecla 55","TMD Plus","Z35","Z70","Z100","EyeZen",
+            "DALI","Zennio","KUPSupply","KNX IP","Fancoil","Shutter"
+          ]
+          with (out/"KNOWN_FAMILY_HITS.txt").open("w",encoding="utf-8") as f:
+              for fam in families:
+                  hits=0
+                  for i,line in enumerate(data.decode("utf-8",errors="ignore").splitlines() if False else [],1):
+                      pass
+                  textdata=xml_data["P-07BC/0.xml"].decode("utf-8",errors="ignore")
+                  hits=textdata.lower().count(fam.lower())
+                  f.write(f"{fam}\t{hits}\n")
+
+          summary=[
+            "# Deep KNX project inspection",
+            "",
+            f"- Source: {project.name}",
+            f"- Size: {project.stat().st_size:,} bytes",
+            f"- ToolVersion: {pxml.get('ToolVersion') or 'see project root'}",
+            f"- Group addresses parsed: {len(ga):,}",
+            f"- Device-like XML elements detected: {len(device):,}",
+            "",
+            "Files:",
+            "- PROJECT_STRUCTURE.csv",
+            "- P-07BC/0.xml.TAG_COUNTS.csv",
+            "- P-07BC/0.xml.ATTRIBUTE_COUNTS.csv",
+            "- GROUP_ADDRESSES.csv",
+            "- DEVICE_LIKE_ELEMENTS.csv",
+            "- KNOWN_FAMILY_HITS.txt",
+          ]
+          (out/"SUMMARY.md").write_text("\n".join(summary),encoding="utf-8")
+          print("\n".join(summary))
+          PY
+
+      - name: Commit deep inspection
+        shell: bash
+        run: |
+          git config user.name "KNX Project Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add knx-analysis-deep
+          git diff --cached --quiet && exit 0
+          git commit -m "Add deep KNX project inspection"
+          git push
