@@ -1,0 +1,619 @@
+﻿GroupAddressId,RawAddress,Name,DatapointType,LinkedDeviceCount,LinkedDevices,SuggestedLogicalDomain
+P-07BC-0_GA-619,2048,Move Garage,DPST-1-6,1,P-07BC-0_DI-14(4) Relay actuator 8-channel,Blinds/Shutters; Garage
+P-07BC-0_GA-620,2049,Move Garage Info,DPST-5-1,1,P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters; Garage
+P-07BC-0_GA-621,2050,Stop Garage,DPST-1-6,2,P-07BC-0_DI-14(4) Relay actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters; Garage
+P-07BC-0_GA-622,2051,Stop Garage Info,DPST-1-6,2,P-07BC-0_DI-14(4) Relay actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters; Garage
+P-07BC-0_GA-623,2052,On/Off 3,DPST-1-6,1,P-07BC-0_DI-14(4) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-624,2053,On/Off 3 Info,DPST-1-6,1,P-07BC-0_DI-14(4) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-625,2054,On/Off 4,DPST-1-6,1,P-07BC-0_DI-14(4) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-626,2055,On/Off 4 Info,DPST-1-6,1,P-07BC-0_DI-14(4) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-627,2056,On/Off 5,DPST-1-6,1,P-07BC-0_DI-14(4) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-628,2057,On/Off 5 Info,DPST-1-6,1,P-07BC-0_DI-14(4) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-629,2058,On/Off 6,DPST-1-6,1,P-07BC-0_DI-14(4) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-630,2059,On/Off 6 Info,DPST-1-6,1,P-07BC-0_DI-14(4) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-631,2060,On/Off 7,DPST-1-6,1,P-07BC-0_DI-14(4) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-632,2061,On/Off 7 Info,DPST-1-6,1,P-07BC-0_DI-14(4) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-633,2062,On/Off 8,DPST-1-6,1,P-07BC-0_DI-14(4) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-634,2063,On/Off 8 Info,DPST-1-6,1,P-07BC-0_DI-14(4) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-635,2064,On/Off 9,DPST-1-6,2,P-07BC-0_DI-15(5) Relay actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-636,2065,On/Off 9 Info,DPST-1-6,2,P-07BC-0_DI-15(5) Relay actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-637,2066,On/Off 10,DPST-1-6,1,P-07BC-0_DI-15(5) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-638,2067,On/Off 10 Info,DPST-1-6,1,P-07BC-0_DI-15(5) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-639,2068,On/Off 11,DPST-1-6,1,P-07BC-0_DI-15(5) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-640,2069,On/Off 11 Info,DPST-1-6,1,P-07BC-0_DI-15(5) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-641,2070,On/Off 12,DPST-1-6,1,P-07BC-0_DI-15(5) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-642,2071,On/Off 12 Info,DPST-1-6,1,P-07BC-0_DI-15(5) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-643,2072,On/Off 13,DPST-1-6,1,P-07BC-0_DI-15(5) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-644,2073,On/Off 13 Info,DPST-1-6,1,P-07BC-0_DI-15(5) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-645,2074,On/Off 14,DPST-1-6,1,P-07BC-0_DI-15(5) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-646,2075,On/Off 14 Info,DPST-1-6,1,P-07BC-0_DI-15(5) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-647,2076,On/Off 15,DPST-1-6,1,P-07BC-0_DI-15(5) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-648,2077,On/Off 15 Info,DPST-1-6,1,P-07BC-0_DI-15(5) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-649,2078,On/Off 16,DPST-1-6,1,P-07BC-0_DI-15(5) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-650,2079,On/Off 16 Info,DPST-1-6,1,P-07BC-0_DI-15(5) Relay actuator 8-channel,Lighting
+P-07BC-0_GA-651,2080,On/Off 17,DPST-1-6,1,P-07BC-0_DI-16(6) Relay actuator 16-channel,Lighting
+P-07BC-0_GA-652,2081,On/Off 17 Info,DPST-1-6,1,P-07BC-0_DI-16(6) Relay actuator 16-channel,Lighting
+P-07BC-0_GA-653,2082,On/Off 18,DPST-1-6,1,P-07BC-0_DI-16(6) Relay actuator 16-channel,Lighting
+P-07BC-0_GA-654,2083,On/Off 18 Info,DPST-1-6,1,P-07BC-0_DI-16(6) Relay actuator 16-channel,Lighting
+P-07BC-0_GA-655,2084,On/Off 19,DPST-1-6,1,P-07BC-0_DI-16(6) Relay actuator 16-channel,Lighting
+P-07BC-0_GA-656,2085,On/Off 19 Info,DPST-1-6,1,P-07BC-0_DI-16(6) Relay actuator 16-channel,Lighting
+P-07BC-0_GA-657,2086,On/Off 20,DPST-1-6,1,P-07BC-0_DI-16(6) Relay actuator 16-channel,Lighting
+P-07BC-0_GA-658,2087,On/Off 20 Info,DPST-1-6,1,P-07BC-0_DI-16(6) Relay actuator 16-channel,Lighting
+P-07BC-0_GA-659,2088,On/Off 21,DPST-1-6,1,P-07BC-0_DI-16(6) Relay actuator 16-channel,Lighting
+P-07BC-0_GA-660,2089,On/Off 21 Info,DPST-1-6,1,P-07BC-0_DI-16(6) Relay actuator 16-channel,Lighting
+P-07BC-0_GA-661,2090,On/Off 22,DPST-1-6,1,P-07BC-0_DI-16(6) Relay actuator 16-channel,Lighting
+P-07BC-0_GA-662,2091,On/Off 22 Info,DPST-1-6,1,P-07BC-0_DI-16(6) Relay actuator 16-channel,Lighting
+P-07BC-0_GA-663,2092,On/Off 23,DPST-1-6,1,P-07BC-0_DI-16(6) Relay actuator 16-channel,Lighting
+P-07BC-0_GA-664,2093,On/Off 23 Info,DPST-1-6,1,P-07BC-0_DI-16(6) Relay actuator 16-channel,Lighting
+P-07BC-0_GA-665,2094,On/Off 24,DPST-1-6,3,P-07BC-0_DI-16(6) Relay actuator 16-channel | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-666,2095,On/Off 24 Info,DPST-1-6,3,P-07BC-0_DI-16(6) Relay actuator 16-channel | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-667,2096,On/Off 25,DPST-1-6,3,P-07BC-0_DI-16(6) Relay actuator 16-channel | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-668,2097,On/Off 25 Info,DPST-1-6,3,P-07BC-0_DI-16(6) Relay actuator 16-channel | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-669,2098,On/Off 26,DPST-1-6,3,P-07BC-0_DI-16(6) Relay actuator 16-channel | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-670,2099,On/Off 26 Info,DPST-1-6,3,P-07BC-0_DI-16(6) Relay actuator 16-channel | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-671,2100,On/Off 27,DPST-1-6,3,P-07BC-0_DI-16(6) Relay actuator 16-channel | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-672,2101,On/Off 27 Info,DPST-1-6,3,P-07BC-0_DI-16(6) Relay actuator 16-channel | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-673,2102,On/Off 28,DPST-1-6,3,P-07BC-0_DI-16(6) Relay actuator 16-channel | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-674,2103,On/Off 28 Info,DPST-1-6,3,P-07BC-0_DI-16(6) Relay actuator 16-channel | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-675,2104,On/Off 29,DPST-1-6,3,P-07BC-0_DI-16(6) Relay actuator 16-channel | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-676,2105,On/Off 29 Info,DPST-1-6,3,P-07BC-0_DI-16(6) Relay actuator 16-channel | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-677,2106,On/Off 30,DPST-1-6,3,P-07BC-0_DI-16(6) Relay actuator 16-channel | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-678,2107,On/Off 30 Info,DPST-1-6,3,P-07BC-0_DI-16(6) Relay actuator 16-channel | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-679,2108,On/Off 31,DPST-1-6,3,P-07BC-0_DI-16(6) Relay actuator 16-channel | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-680,2109,On/Off 31 Info,DPST-1-6,3,P-07BC-0_DI-16(6) Relay actuator 16-channel | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-681,2110,On/Off 32,DPST-1-6,2,P-07BC-0_DI-16(6) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-682,2111,On/Off 32 Info,DPST-1-6,2,P-07BC-0_DI-16(6) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-683,2112,On/Off 33,DPST-1-6,2,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-684,2113,On/Off 33 Info,DPST-1-6,2,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-685,2114,On/Off 34,DPST-1-6,2,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-686,2115,On/Off 34 Info,DPST-1-6,2,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-687,2116,On/Off 35,DPST-1-6,2,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-688,2117,On/Off 35 Info,DPST-1-6,2,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-689,2118,On/Off 36,DPST-1-6,2,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-690,2119,On/Off 36 Info,DPST-1-6,2,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-691,2120,On/Off 37,DPST-1-6,2,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-692,2121,On/Off 37 Info,DPST-1-6,2,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-693,2122,On/Off 38,DPST-1-6,2,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-694,2123,On/Off 38 Info,DPST-1-6,2,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-695,2124,On/Off 39,DPST-1-6,2,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-696,2125,On/Off 39 Info,DPST-1-6,2,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-697,2126,On/Off 40,DPST-1-6,3,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-698,2127,On/Off 40 Info,DPST-1-6,3,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-699,2128,On/Off 41,DPST-1-6,3,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-700,2129,On/Off 41 Info,DPST-1-6,3,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-701,2130,On/Off 42,DPST-1-6,3,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-702,2131,On/Off 42 Info,DPST-1-6,3,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-703,2132,On/Off 43,DPST-1-6,2,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-704,2133,On/Off 43 Info,DPST-1-6,2,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-705,2134,On/Off 44,DPST-1-6,2,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-706,2135,On/Off 44 Info,DPST-1-6,2,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-707,2136,On/Off 45,DPST-1-6,2,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-708,2137,On/Off 45 Info,DPST-1-6,2,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-709,2138,On/Off 46,DPST-1-6,3,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-710,2139,On/Off 46 Info,DPST-1-6,3,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-711,2140,On/Off 47,DPST-1-6,3,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-712,2141,On/Off 47 Info,DPST-1-6,3,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-713,2142,On/Off 48,DPST-1-6,3,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-714,2143,On/Off 48 Info,DPST-1-6,3,P-07BC-0_DI-17(7) Relay actuator 16-channel | P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-715,2144,On/Off 49,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-716,2145,On/Off 49 Info,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-717,2146,On/Off 50,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-718,2147,On/Off 50 Info,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-719,2148,On/Off 51,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-720,2149,On/Off 51 Info,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-721,2150,On/Off 52,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-722,2151,On/Off 52 Info,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-723,2152,On/Off 53,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-724,2153,On/Off 53 Info,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-725,2154,On/Off 54,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-726,2155,On/Off 54 Info,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-727,2156,On/Off 55,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-728,2157,On/Off 55 Info,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-729,2158,On/Off 56,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-730,2159,On/Off 56 Info,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-731,2160,On/Off 57,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-732,2161,On/Off 57 Info,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-733,2162,On/Off 58,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-734,2163,On/Off 58 Info,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-735,2164,On/Off 59,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-736,2165,On/Off 59 Info,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-737,2166,On/Off 60,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-738,2167,On/Off 60 Info,DPST-1-6,2,P-07BC-0_DI-18(8) Relay actuator 24-channel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-739,2168,On/Off 61,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-740,2169,On/Off 61 Info,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-741,2170,On/Off 62,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-742,2171,On/Off 62 Info,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-743,2172,On/Off 63,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-744,2173,On/Off 63 Info,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-745,2174,On/Off 64,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-746,2175,On/Off 64 Info,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-747,2176,On/Off 65,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-748,2177,On/Off 65 Info,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-749,2178,On/Off 66,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-750,2179,On/Off 66 Info,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-751,2180,On/Off 67,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-752,2181,On/Off 67 Info,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-753,2182,On/Off 68,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-754,2183,On/Off 68 Info,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-755,2184,On/Off 69,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-756,2185,On/Off 69 Info,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-757,2186,On/Off 70,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-758,2187,On/Off 70 Info,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-759,2188,On/Off 71,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-760,2189,On/Off 71 Info,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-761,2190,On/Off 72,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-762,2191,On/Off 72 Info,DPST-1-6,1,P-07BC-0_DI-18(8) Relay actuator 24-channel,Lighting
+P-07BC-0_GA-763,2304,D64 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-764,2305,D1 ON/Off,DPST-1-1,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-765,2306,D1 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-766,2307,D1 Dimming,DPST-5-1,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-767,2308,D1 Dimming  Info,DPST-3-7,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-768,2309,D2 ON/Off,DPST-1-1,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-769,2310,D2 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-770,2311,D2 Dimming,DPST-5-1,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-771,2312,D2 Dimming  Info,DPST-3-7,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-772,2313,D3 ON/Off,DPST-1-1,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-773,2314,D3 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-774,2315,D3 Dimming,DPST-5-1,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-775,2316,D3 Dimming Info,DPST-3-7,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-776,2317,D4 ON/Off,DPST-1-1,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-777,2318,D4 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-778,2319,D4 Dimmimg,DPST-5-1,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-779,2320,D4 Dimmimg Info,DPST-3-7,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-780,2321,D5 ON/Off,DPST-1-1,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-781,2322,D5 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-782,2323,D5 Dimming,DPST-5-1,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-783,2324,D5 Dimming Info,DPST-3-7,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-784,2325,D6 ON/Off,DPST-1-1,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-785,2326,D6 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-786,2327,D6 Dimming,DPST-5-1,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-787,2328,D6 Dimming Info,DPST-3-7,2,P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-788,2329,D7 ON/Off,DPST-1-1,2,P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-789,2330,D7 ON/Off  Info,DPST-5-1,2,P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-790,2331,D7 Dimming,DPST-5-1,2,P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-791,2332,D7 Dimming Info,DPST-3-7,2,P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-792,2333,D8 ON/Off,DPST-1-1,2,P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-793,2334,D8 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-794,2335,D8 Dimming,DPST-5-1,2,P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-795,2336,D8 Dimming Info,DPST-3-7,2,P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-796,2337,D9 ON/Off,DPST-1-1,2,P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-797,2338,D9 ON/Off  Info,DPST-5-1,2,P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-798,2339,D9 Dimming,DPST-5-1,2,P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-799,2340,D9 Dimming Info,DPST-3-7,2,P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-800,2341,D10 ON/Off,DPST-1-1,2,P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-801,2342,D10 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-802,2343,D10 Dimming,DPST-5-1,2,P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-803,2344,D10 Dimming Info,DPST-3-7,2,P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-804,2345,D11 ON/Off,DPST-1-1,2,P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-805,2346,D11 ON/Off  Info,DPST-5-1,2,P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-806,2347,D11 Dimming,DPST-5-1,2,P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-807,2348,D11 Dimmimg Info,DPST-3-7,2,P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-808,2349,D12 ON/Off,DPST-1-1,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-809,2350,D12 ON/Off Info,DPST-5-1,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-810,2351,D12 Dimming,DPST-5-1,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-811,2352,D12 Dimming Info,DPST-3-7,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-812,2353,D13 ON/Off,DPST-1-1,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-813,2354,D13 ON/Off Info,DPST-5-1,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-814,2355,D13 Dimming,DPST-5-1,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-815,2356,D13 Dimming Info,DPST-3-7,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-816,2357,D14 ON/Off,DPST-1-1,2,P-07BC-0_DI-87(44) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-817,2358,D14 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-87(44) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-818,2359,D14 Dimming,DPST-5-1,2,P-07BC-0_DI-87(44) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-819,2360,D14 Dimming Info,DPST-3-7,2,P-07BC-0_DI-87(44) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-820,2361,D15 ON/Off,DPST-1-1,2,P-07BC-0_DI-87(44) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-821,2362,D15 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-87(44) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-822,2363,D15 Dimming,DPST-5-1,2,P-07BC-0_DI-87(44) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-823,2364,D15 Dimming Info,DPST-3-7,2,P-07BC-0_DI-87(44) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-824,2365,D16 ON/Off,DPST-1-1,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-825,2366,D16 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-826,2367,D16 Dimming,DPST-5-1,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-827,2368,D16 Dimming Info,DPST-3-7,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-828,2369,D17 ON/Off,DPST-1-1,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-829,2370,D17 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-830,2371,D17 Dimming,DPST-5-1,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-831,2372,D17 Dimming Info,DPST-3-7,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-832,2373,D18 ON/Off,DPST-1-1,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-833,2374,D18 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-834,2375,D18 Dimming,DPST-5-1,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-835,2376,D18 Dimming Info,DPST-3-7,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-836,2377,D19 ON/Off,DPST-1-1,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-837,2378,D19 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-838,2379,D19 Dimming,DPST-5-1,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-839,2380,D19 Dimming Info,DPST-3-7,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-840,2381,D20 ON/Off,DPST-1-1,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-841,2382,D20 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-842,2383,D20 Dimming,DPST-5-1,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-843,2384,D20 Dimming Info,DPST-3-7,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-844,2385,D21 ON/Off,DPST-1-1,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-845,2386,D21 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-846,2387,D21 Dimming,DPST-5-1,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-847,2388,D21 Dimming Info,DPST-3-7,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-848,2389,D22 ON/Off,DPST-1-1,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-849,2390,D22 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-850,2391,D22 Dimming,DPST-5-1,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-851,2392,D22 Dimming Info,DPST-3-7,2,P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-852,2393,D23 ON/Off,DPST-1-1,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-853,2394,D23 ON/Off Info,DPST-5-1,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-854,2395,D23 Dimming,DPST-5-1,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-855,2396,D23 Dimming Info,DPST-3-7,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-856,2397,D24 ON/Off,DPST-1-1,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-857,2398,D24 ON/Off Info,DPST-5-1,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-858,2399,D24 Dimming,DPST-5-1,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-859,2400,D24 Dimming Info,DPST-3-7,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-860,2401,D25 ON/Off,DPST-1-1,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-861,2402,D25 ON/Off Info,DPST-5-1,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-862,2403,D25 Dimming,DPST-5-1,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-863,2404,D25 Dimming Info,DPST-3-7,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-864,2405,D26 ON/Off,DPST-1-1,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-865,2406,D26 ON/Off Info,DPST-5-1,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-866,2407,D26 Dimming,DPST-5-1,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-867,2408,D26 Dimming Info,DPST-3-7,1,P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-868,2409,D27 ON/Off,DPST-1-1,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-869,2410,D27 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-870,2411,D27 Dimming,DPST-5-1,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-871,2412,D27 Dimming Info,DPST-3-7,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-872,2413,D28 ON/Off,DPST-1-1,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-873,2414,D28 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-874,2415,D28 Dimming,DPST-5-1,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-875,2416,D28 Dimming Info,DPST-3-7,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-876,2417,D29 ON/Off,DPST-1-1,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-877,2418,D29 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-878,2419,D29 Dimming,DPST-5-1,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-879,2420,D29 Dimming Info,DPST-3-7,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-880,2421,D30 ON/Off,DPST-1-1,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-881,2422,D30 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-882,2423,D30 Dimming,DPST-5-1,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-883,2424,D30 Dimming Info,DPST-3-7,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-884,2425,D31 ON/Off,DPST-1-1,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-885,2426,D31 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-886,2427,D31 Dimming,DPST-5-1,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-887,2428,D31 Dimming Info,DPST-3-7,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-888,2429,D32 ON/Off,DPST-1-1,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-889,2430,D32 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-890,2431,D32 Dimming,DPST-5-1,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-891,2432,D32 Dimming Info,DPST-3-7,2,P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-892,2433,D33 ON/Off,DPST-1-1,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-893,2434,D33 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-894,2435,D33 Dimming,DPST-5-1,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-895,2436,D33 Dimming Info,DPST-3-7,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-896,2437,D34 ON/Off,DPST-1-1,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-897,2438,D34 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-898,2439,D34 Dimming,DPST-5-1,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-899,2440,D34 Dimming Info,DPST-3-7,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-900,2441,D35 ON/Off,DPST-1-1,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-901,2442,D35 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-902,2443,D35 Dimming,DPST-5-1,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-903,2444,D35 Dimming Info,DPST-3-7,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-904,2445,D36 ON/Off,DPST-1-1,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-905,2446,D36 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-906,2447,D36 Dimming,DPST-5-1,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-907,2448,D36 Dimming Info,DPST-3-7,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-908,2449,D37 ON/Off,DPST-1-1,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-909,2450,D37 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-910,2451,D37 Dimming,DPST-5-1,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-911,2452,D37 Dimming Info,DPST-3-7,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-912,2453,D38 ON/Off,DPST-1-1,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-913,2454,D38 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-914,2455,D38 Dimming,DPST-5-1,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-915,2456,D38 Dimming Info,DPST-3-7,2,P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-916,2457,D39 ON/Off,DPST-1-1,2,P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-917,2458,D39 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-918,2459,D39 Dimming,DPST-5-1,2,P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-919,2460,D39 Dimming Info,DPST-3-7,2,P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-920,2461,D40 ON/Off,DPST-1-1,2,P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-921,2462,D40 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-922,2463,D40 Dimming,DPST-5-1,2,P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-923,2464,D40 Dimming Info,DPST-3-7,2,P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-924,2465,D41 ON/Off,DPST-1-1,2,P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-925,2466,D41 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-926,2467,D41 Dimming,DPST-5-1,2,P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-927,2468,D41 Dimming Info,DPST-3-7,2,P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-928,2469,D42 ON/Off,DPST-1-1,2,P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-929,2470,D42 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-930,2471,D42 Dimming,DPST-5-1,2,P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-931,2472,D42 Dimming Info,DPST-3-7,2,P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-932,2473,D43 ON/Off,DPST-1-1,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-933,2474,D43 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-934,2475,D43 Dimming,DPST-5-1,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-935,2476,D43 Dimming Info,DPST-3-7,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-936,2477,D44 ON/Off,DPST-1-1,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-937,2478,D44 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-938,2479,D44 Dimming,DPST-5-1,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-939,2480,D44 Dimming Info,DPST-3-7,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-940,2481,D45 ON/Off,DPST-1-1,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-941,2482,D45 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-942,2483,D45 Dimming,DPST-5-1,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-943,2484,D45 Dimming Info,DPST-3-7,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-944,2485,D46 ON/Off,DPST-1-1,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-945,2486,D46 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-946,2487,D46 Dimming,DPST-5-1,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-947,2488,D46 Dimming Info,DPST-3-7,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-948,2489,D47 ON/Off,DPST-1-1,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-949,2490,D47 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-950,2491,D47 Dimming,DPST-5-1,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-951,2492,D47 Dimming Info,DPST-3-7,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-952,2493,D48 ON/Off,DPST-1-1,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-953,2494,D48 ON/Off Info,DPST-5-1,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-954,2495,D48 Dimming,DPST-5-1,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-955,2496,D48 Dimming Info,DPST-3-7,2,P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Lighting
+P-07BC-0_GA-956,2497,D49 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-957,2498,D49 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-958,2499,D49 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-959,2500,D49 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-960,2501,D50 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-961,2502,D50 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-962,2503,D50 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-963,2504,D50 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-964,2505,D51 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-965,2506,D51 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-966,2507,D51 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-967,2508,D51 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-968,2509,D52 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-969,2510,D52 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-970,2511,D52 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-971,2512,D52 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-972,2513,D53 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-973,2514,D53 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-974,2515,D53 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-975,2516,D53 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-976,2517,D54 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-977,2518,D54 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-978,2519,D54 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-979,2520,D54 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-980,2521,D55 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-981,2522,D55 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-982,2523,D55 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-983,2524,D55 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-984,2525,D56 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-985,2526,D56 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-986,2527,D56 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-987,2528,D56 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-988,2529,D57 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-989,2530,D57 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-990,2531,D57 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-991,2532,D57 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-992,2533,D58 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-993,2534,D58 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-994,2535,D58 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-995,2536,D58 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-996,2537,D59 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-997,2538,D59 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-998,2539,D59 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-999,2540,D59 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-1000,2541,D60 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1001,2542,D60 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1002,2543,D60 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-1003,2544,D60 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-1004,2545,D61 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1005,2546,D61 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1006,2547,D61 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-1007,2548,D61 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-1008,2549,D62 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1009,2550,D62 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1010,2551,D62 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-1011,2552,D62 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-1012,2553,D63 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1013,2554,D63 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1014,2555,D63 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-1015,2556,D63 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-1016,2557,D64 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1017,2558,D64 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1018,2559,D64 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-1019,2561,D65 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1020,2562,D65 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1021,2563,D65 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-1022,2564,D65 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-1023,2565,D66 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1024,2566,D66 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1025,2567,D66 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-1026,2568,D66 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-1027,2569,D67 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1028,2570,D67 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1029,2571,D67 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-1030,2572,D67 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-1031,2573,D68 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1032,2574,D68 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1033,2575,D68 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-1034,2576,D68 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-1035,2577,D69 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1036,2578,D69 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1037,2579,D69 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-1038,2580,D69 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-1039,2581,D70 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1040,2582,D70 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1041,2583,D70 Dimming,DPST-3-7,0,,Lighting
+P-07BC-0_GA-1042,2584,D70 Dimming Info,DPST-5-1,0,,Lighting
+P-07BC-0_GA-1043,2817,1 Move,DPST-1-8,3,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1044,2818,1 Stop,DPST-1-17,3,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1045,2819,1 Status,DPST-5-1,3,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,
+P-07BC-0_GA-1046,2820,2 Move,DPST-1-8,3,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1047,2821,2 Stop,DPST-1-17,3,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1048,2822,2 Status,DPST-5-1,3,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,
+P-07BC-0_GA-1049,2823,3 Move,DPST-1-8,2,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1050,2824,3 Stop,DPST-1-17,2,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1051,2825,3 Status,DPST-5-1,2,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,
+P-07BC-0_GA-1052,2826,4 Move,DPST-1-8,3,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1053,2827,4 Stop,DPST-1-17,3,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1054,2828,4 Status,DPST-5-1,3,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,
+P-07BC-0_GA-1055,2829,5 Move,DPST-1-8,3,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1056,2830,5 Stop,DPST-1-17,3,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1057,2831,5 Status,DPST-5-1,3,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,
+P-07BC-0_GA-1058,2832,6 Move,DPST-1-8,3,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1059,2833,6 Stop,DPST-1-17,3,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1060,2834,6 Status,DPST-5-1,3,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,
+P-07BC-0_GA-1061,2835,7 Move,DPST-1-8,3,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-87(44) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1062,2836,7 Stop,DPST-1-17,3,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-87(44) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1063,2837,7 Status,DPST-5-1,3,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-87(44) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,
+P-07BC-0_GA-1064,2838,8 Move,DPST-1-8,2,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1065,2839,8 Stop,DPST-1-17,2,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1066,2840,8 Status,DPST-5-1,2,P-07BC-0_DI-19(9) Shutter actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,
+P-07BC-0_GA-1067,2841,9 Move,DPST-1-8,3,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1068,2842,9 Stop,DPST-1-17,3,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1069,2843,9 Status,DPST-5-1,3,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,
+P-07BC-0_GA-1070,2844,10 Move,DPST-1-8,2,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1071,2845,10 Stop,DPST-1-17,2,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1072,2846,10 Status,DPST-5-1,2,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,
+P-07BC-0_GA-1073,2847,11 Move,DPST-1-8,2,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1074,2848,11 Stop,DPST-1-17,2,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1075,2849,11 Status,DPST-5-1,2,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,
+P-07BC-0_GA-1076,2850,12 Move,DPST-1-8,3,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1077,2851,12 Stop,DPST-1-17,3,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1078,2852,12 Status,DPST-5-1,3,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,
+P-07BC-0_GA-1079,2853,13 Move,DPST-1-8,3,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1080,2854,13 Stop,DPST-1-17,3,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1081,2855,13 Status,DPST-5-1,3,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,
+P-07BC-0_GA-1082,2856,14 Move,DPST-1-8,4,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1083,2857,14 Stop,DPST-1-17,4,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1084,2858,14 Status,DPST-5-1,4,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,
+P-07BC-0_GA-1085,2859,15 Move,DPST-1-8,3,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1086,2860,15 Stop,DPST-1-17,3,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1087,2861,15 Status,DPST-5-1,3,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,
+P-07BC-0_GA-1088,2862,16 Move,DPST-1-8,2,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1089,2863,16 Stop,DPST-1-17,2,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1090,2864,16 Status,DPST-5-1,2,P-07BC-0_DI-20(10) Shutter actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,
+P-07BC-0_GA-1091,2865,17 Move,DPST-1-8,2,P-07BC-0_DI-21(11) Shutter actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1092,2866,17 Stop,DPST-1-17,2,P-07BC-0_DI-21(11) Shutter actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1093,2867,17 Status,DPST-5-1,2,P-07BC-0_DI-21(11) Shutter actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,
+P-07BC-0_GA-1094,2868,18 Move,DPST-1-8,2,P-07BC-0_DI-21(11) Shutter actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1095,2869,18 Stop,DPST-1-17,2,P-07BC-0_DI-21(11) Shutter actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,Blinds/Shutters
+P-07BC-0_GA-1096,2870,18 Status,DPST-5-1,2,P-07BC-0_DI-21(11) Shutter actuator 8-channel | P-07BC-0_DI-99(51) Z100 touch panel,
+P-07BC-0_GA-1097,3073,1 Mode,DPST-20-105,3,P-07BC-0_DI-22(12) Universal logic controller / actuator | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1098,3074,1 Mode Info,DPST-20-105,3,P-07BC-0_DI-22(12) Universal logic controller / actuator | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1099,3075,1 ON/Off,DPST-1-1,1,P-07BC-0_DI-22(12) Universal logic controller / actuator,Lighting
+P-07BC-0_GA-1100,3076,1 ON/Off Info,DPST-1-1,1,P-07BC-0_DI-22(12) Universal logic controller / actuator,Lighting
+P-07BC-0_GA-1101,3077,1 Fan,DPST-5-1,3,P-07BC-0_DI-22(12) Universal logic controller / actuator | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1102,3078,1 Fan Info,DPST-5-1,3,P-07BC-0_DI-22(12) Universal logic controller / actuator | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1103,3079,1 Set Point,DPST-9-1,3,P-07BC-0_DI-22(12) Universal logic controller / actuator | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1104,3080,1 Set Point Info,DPST-9-1,3,P-07BC-0_DI-22(12) Universal logic controller / actuator | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1105,3081,1 Temp.,DPST-7-7,3,P-07BC-0_DI-22(12) Universal logic controller / actuator | P-07BC-0_DI-85(43) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1106,3082,1 Error Code,DPST-16-0,1,P-07BC-0_DI-22(12) Universal logic controller / actuator,
+P-07BC-0_GA-1107,3083,2 Mode,DPST-20-105,3,P-07BC-0_DI-24(13) Universal logic controller / actuator | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1108,3084,2 Mode Info,DPST-20-105,3,P-07BC-0_DI-24(13) Universal logic controller / actuator | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1109,3085,2 ON/Off,DPST-1-1,1,P-07BC-0_DI-24(13) Universal logic controller / actuator,Lighting
+P-07BC-0_GA-1110,3086,2 ON/Off Info,DPST-1-1,1,P-07BC-0_DI-24(13) Universal logic controller / actuator,Lighting
+P-07BC-0_GA-1111,3087,2 Fan,DPST-5-1,3,P-07BC-0_DI-24(13) Universal logic controller / actuator | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1112,3088,2 Fan Info,DPST-5-1,3,P-07BC-0_DI-24(13) Universal logic controller / actuator | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1113,3089,2 Set Point,DPST-9-1,3,P-07BC-0_DI-24(13) Universal logic controller / actuator | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1114,3090,2 Set Point Info,DPST-9-1,3,P-07BC-0_DI-24(13) Universal logic controller / actuator | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1115,3091,2 Temp.,DPST-7-7,3,P-07BC-0_DI-24(13) Universal logic controller / actuator | P-07BC-0_DI-86(42) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1116,3092,2 Error Code,DPST-16-0,1,P-07BC-0_DI-24(13) Universal logic controller / actuator,
+P-07BC-0_GA-1117,3093,3 Mode,DPST-20-105,3,P-07BC-0_DI-25(14) Universal logic controller / actuator | P-07BC-0_DI-87(44) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1118,3094,3 Mode Info,DPST-20-105,3,P-07BC-0_DI-25(14) Universal logic controller / actuator | P-07BC-0_DI-87(44) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1119,3095,3 ON/Off,DPST-1-1,1,P-07BC-0_DI-25(14) Universal logic controller / actuator,Lighting
+P-07BC-0_GA-1120,3096,3 ON/Off Info,DPST-1-1,1,P-07BC-0_DI-25(14) Universal logic controller / actuator,Lighting
+P-07BC-0_GA-1121,3097,3 Fan,DPST-5-1,3,P-07BC-0_DI-25(14) Universal logic controller / actuator | P-07BC-0_DI-87(44) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1122,3098,3 Fan Info,DPST-5-1,3,P-07BC-0_DI-25(14) Universal logic controller / actuator | P-07BC-0_DI-87(44) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1123,3099,3 Set Point,DPST-9-1,3,P-07BC-0_DI-25(14) Universal logic controller / actuator | P-07BC-0_DI-87(44) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1124,3100,3 Set Point Info,DPST-9-1,3,P-07BC-0_DI-25(14) Universal logic controller / actuator | P-07BC-0_DI-87(44) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1125,3101,3 Temp.,DPST-7-7,3,P-07BC-0_DI-25(14) Universal logic controller / actuator | P-07BC-0_DI-87(44) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1126,3102,3 Error Code,DPST-16-0,1,P-07BC-0_DI-25(14) Universal logic controller / actuator,
+P-07BC-0_GA-1127,3103,4 Mode,DPST-20-105,3,P-07BC-0_DI-26(15) Universal logic controller / actuator | P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1128,3104,4 Mode Info,DPST-20-105,3,P-07BC-0_DI-26(15) Universal logic controller / actuator | P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1129,3105,4 ON/Off,DPST-1-1,1,P-07BC-0_DI-26(15) Universal logic controller / actuator,Lighting
+P-07BC-0_GA-1130,3106,4 ON/Off Info,DPST-1-1,1,P-07BC-0_DI-26(15) Universal logic controller / actuator,Lighting
+P-07BC-0_GA-1131,3107,4 Fan,DPST-5-1,3,P-07BC-0_DI-26(15) Universal logic controller / actuator | P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1132,3108,4 Fan Info,DPST-5-1,3,P-07BC-0_DI-26(15) Universal logic controller / actuator | P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1133,3109,4 Set Point,DPST-9-1,3,P-07BC-0_DI-26(15) Universal logic controller / actuator | P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1134,3110,4 Set Point Info,DPST-9-1,3,P-07BC-0_DI-26(15) Universal logic controller / actuator | P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1135,3111,4 Temp.,DPST-7-7,3,P-07BC-0_DI-26(15) Universal logic controller / actuator | P-07BC-0_DI-88(45) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1136,3112,4 Error Code,DPST-16-0,1,P-07BC-0_DI-26(15) Universal logic controller / actuator,
+P-07BC-0_GA-1137,3113,5 Mode,DPST-20-105,2,P-07BC-0_DI-27(16) Universal logic controller / actuator | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1138,3114,5 Mode Info,DPST-20-105,2,P-07BC-0_DI-27(16) Universal logic controller / actuator | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1139,3115,5 ON/Off,DPST-1-1,1,P-07BC-0_DI-27(16) Universal logic controller / actuator,Lighting
+P-07BC-0_GA-1140,3116,5 ON/Off Info,DPST-1-1,1,P-07BC-0_DI-27(16) Universal logic controller / actuator,Lighting
+P-07BC-0_GA-1141,3117,5 Fan,DPST-5-1,2,P-07BC-0_DI-27(16) Universal logic controller / actuator | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1142,3118,5 Fan Info,DPST-5-1,2,P-07BC-0_DI-27(16) Universal logic controller / actuator | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1143,3119,5 Set Point,DPST-9-1,2,P-07BC-0_DI-27(16) Universal logic controller / actuator | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1144,3120,5 Set Point Info,DPST-9-1,2,P-07BC-0_DI-27(16) Universal logic controller / actuator | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1145,3121,5 Temp.,DPST-9-1,2,P-07BC-0_DI-27(16) Universal logic controller / actuator | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1146,3122,5 Error Code,DPST-16-0,1,P-07BC-0_DI-27(16) Universal logic controller / actuator,
+P-07BC-0_GA-1147,3123,6 Mode,DPST-20-105,3,P-07BC-0_DI-28(17) Universal logic controller / actuator | P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1148,3124,6 Mode Info,DPST-20-105,3,P-07BC-0_DI-28(17) Universal logic controller / actuator | P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1149,3125,6 ON/Off,DPST-1-1,1,P-07BC-0_DI-28(17) Universal logic controller / actuator,Lighting
+P-07BC-0_GA-1150,3126,6 ON/Off Info,DPST-1-1,1,P-07BC-0_DI-28(17) Universal logic controller / actuator,Lighting
+P-07BC-0_GA-1151,3127,6 Fan,DPST-5-1,3,P-07BC-0_DI-28(17) Universal logic controller / actuator | P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1152,3128,6 Fan Info,DPST-5-1,3,P-07BC-0_DI-28(17) Universal logic controller / actuator | P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1153,3129,6 Set Point,DPST-9-1,3,P-07BC-0_DI-28(17) Universal logic controller / actuator | P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1154,3130,6 Set Point Info,DPST-9-1,3,P-07BC-0_DI-28(17) Universal logic controller / actuator | P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1155,3131,6 Temp.,DPST-9-1,3,P-07BC-0_DI-28(17) Universal logic controller / actuator | P-07BC-0_DI-89(46) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1156,3132,6 Error Code,DPST-16-0,1,P-07BC-0_DI-28(17) Universal logic controller / actuator,
+P-07BC-0_GA-1157,3133,7 Mode,DPST-20-105,3,P-07BC-0_DI-29(18) Universal logic controller / actuator | P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1158,3134,7 Mode Info,DPST-20-105,3,P-07BC-0_DI-29(18) Universal logic controller / actuator | P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1159,3135,7 ON/Off,DPST-1-1,1,P-07BC-0_DI-29(18) Universal logic controller / actuator,Lighting
+P-07BC-0_GA-1160,3136,7 ON/Off Info,DPST-1-1,1,P-07BC-0_DI-29(18) Universal logic controller / actuator,Lighting
+P-07BC-0_GA-1161,3137,7 Fan,DPST-5-1,3,P-07BC-0_DI-29(18) Universal logic controller / actuator | P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1162,3138,7 Fan Info,DPST-5-1,3,P-07BC-0_DI-29(18) Universal logic controller / actuator | P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1163,3139,7 Set Point,DPST-9-1,3,P-07BC-0_DI-29(18) Universal logic controller / actuator | P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1164,3140,7 Set Point Info,DPST-9-1,3,P-07BC-0_DI-29(18) Universal logic controller / actuator | P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1165,3141,7 Temp.,DPST-9-1,3,P-07BC-0_DI-29(18) Universal logic controller / actuator | P-07BC-0_DI-90(47) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1166,3142,7 Error Code,DPST-16-0,1,P-07BC-0_DI-29(18) Universal logic controller / actuator,
+P-07BC-0_GA-1167,3143,8 Mode,DPST-20-105,2,P-07BC-0_DI-30(19) Universal logic controller / actuator | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1168,3144,8 Mode Info,DPST-20-105,2,P-07BC-0_DI-30(19) Universal logic controller / actuator | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1169,3145,8 ON/Off,DPST-1-1,1,P-07BC-0_DI-30(19) Universal logic controller / actuator,Lighting
+P-07BC-0_GA-1170,3146,8 ON/Off Info,DPST-1-1,1,P-07BC-0_DI-30(19) Universal logic controller / actuator,Lighting
+P-07BC-0_GA-1171,3147,8 Fan,DPST-5-1,2,P-07BC-0_DI-30(19) Universal logic controller / actuator | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1172,3148,8 Fan Info,DPST-5-1,2,P-07BC-0_DI-30(19) Universal logic controller / actuator | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1173,3149,8 Set Point,DPST-9-1,2,P-07BC-0_DI-30(19) Universal logic controller / actuator | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1174,3150,8 Set Point Info,DPST-9-1,2,P-07BC-0_DI-30(19) Universal logic controller / actuator | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1175,3151,8 Temp.,DPST-9-1,3,P-07BC-0_DI-30(19) Universal logic controller / actuator | P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1176,3152,8 Error Code,DPST-16-0,1,P-07BC-0_DI-30(19) Universal logic controller / actuator,
+P-07BC-0_GA-1177,3153,9 Mode,DPST-20-105,4,P-07BC-0_DI-38(20) Universal logic controller / actuator | P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1178,3154,9 Mode Info,DPST-20-105,4,P-07BC-0_DI-38(20) Universal logic controller / actuator | P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1179,3155,9 ON/Off,DPST-1-1,1,P-07BC-0_DI-38(20) Universal logic controller / actuator,Lighting
+P-07BC-0_GA-1180,3156,9 ON/Off Info,DPST-1-1,1,P-07BC-0_DI-38(20) Universal logic controller / actuator,Lighting
+P-07BC-0_GA-1181,3157,9 Fan,DPST-5-1,4,P-07BC-0_DI-38(20) Universal logic controller / actuator | P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1182,3158,9 Fan Info,DPST-5-1,4,P-07BC-0_DI-38(20) Universal logic controller / actuator | P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1183,3159,9 Set Point,DPST-9-1,4,P-07BC-0_DI-38(20) Universal logic controller / actuator | P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1184,3160,9 Set Point Info,DPST-9-1,4,P-07BC-0_DI-38(20) Universal logic controller / actuator | P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1185,3161,9 Temp.,DPST-9-1,4,P-07BC-0_DI-38(20) Universal logic controller / actuator | P-07BC-0_DI-91(48) Z35 v2 touch panel | P-07BC-0_DI-92(49) Z35 v2 touch panel | P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1186,3162,9 Error Code,DPST-16-0,1,P-07BC-0_DI-38(20) Universal logic controller / actuator,
+P-07BC-0_GA-1187,3163,10 Mode,DPST-20-105,1,P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1188,3164,10 Mode Info,DPST-20-105,1,P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1189,3165,10 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1190,3166,10 ON/Off Info,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1191,3167,10 Fan,DPST-5-1,1,P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1192,3168,10 Fan Info,DPST-5-1,1,P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1193,3169,10 Set Point,DPST-9-1,1,P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1194,3170,10 Set Point Info,DPST-9-1,1,P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1195,3171,10 Temp.,DPST-9-1,1,P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1196,3172,10 Error Code,DPST-16-0,0,,
+P-07BC-0_GA-1197,3173,11 Mode,DPST-20-105,1,P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1198,3174,11 Mode Info,,0,,HVAC
+P-07BC-0_GA-1199,3175,11 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1200,3176,11 ON/Off Info,,0,,Lighting
+P-07BC-0_GA-1201,3177,11 Fan,DPST-5-1,1,P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1202,3178,11 Fan Info,,0,,HVAC
+P-07BC-0_GA-1203,3179,11 Set Point,DPST-9-1,1,P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1204,3180,11 Set Point Info,,0,,HVAC
+P-07BC-0_GA-1205,3181,11 Temp.,DPST-9-1,1,P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1206,3182,11 Error Code,,0,,
+P-07BC-0_GA-1207,3183,12 Mode,DPST-20-105,1,P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1208,3184,12 Mode Info,,0,,HVAC
+P-07BC-0_GA-1209,3185,12 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1210,3186,12 ON/Off Info,,0,,Lighting
+P-07BC-0_GA-1211,3187,12 Fan,DPST-5-1,1,P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1212,3188,12 Fan Info,,0,,HVAC
+P-07BC-0_GA-1213,3189,12 Set Point,DPST-9-1,1,P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1214,3190,12 Set Point Info,,0,,HVAC
+P-07BC-0_GA-1215,3191,12 Temp.,DPST-9-1,1,P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1216,3192,12 Error Code,,0,,
+P-07BC-0_GA-1217,3193,13 Mode,DPST-20-105,1,P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1218,3194,13 Mode Info,,0,,HVAC
+P-07BC-0_GA-1219,3195,13 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1220,3196,13 ON/Off Info,,0,,Lighting
+P-07BC-0_GA-1221,3197,13 Fan,DPST-5-1,1,P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1222,3198,13 Fan Info,,0,,HVAC
+P-07BC-0_GA-1223,3199,13 Set Point,DPST-9-1,1,P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1224,3200,13 Set Point Info,,0,,HVAC
+P-07BC-0_GA-1225,3201,13 Temp.,DPST-9-1,1,P-07BC-0_DI-99(51) Z100 touch panel,HVAC
+P-07BC-0_GA-1226,3202,13 Error Code,,0,,
+P-07BC-0_GA-1227,3203,14 Mode,DPST-20-105,0,,HVAC
+P-07BC-0_GA-1228,3204,14 Mode Info,,0,,HVAC
+P-07BC-0_GA-1229,3205,14 ON/Off,DPST-1-1,0,,Lighting
+P-07BC-0_GA-1230,3206,14 ON/Off Info,,0,,Lighting
+P-07BC-0_GA-1231,3207,14 Fan,DPST-5-1,0,,HVAC
+P-07BC-0_GA-1232,3208,14 Fan Info,,0,,HVAC
+P-07BC-0_GA-1233,3209,14 Set Point,DPST-9-1,0,,HVAC
+P-07BC-0_GA-1234,3210,14 Set Point Info,,0,,HVAC
+P-07BC-0_GA-1235,3211,14 Temp.,,0,,HVAC
+P-07BC-0_GA-1236,3212,14 Error Code,,0,,
