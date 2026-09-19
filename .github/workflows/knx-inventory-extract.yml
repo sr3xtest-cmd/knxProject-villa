@@ -1,0 +1,169 @@
+name: KNX project inventory extract
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/knx-inventory-extract.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract device, topology and group-object inventory
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import zipfile, xml.etree.ElementTree as ET, csv, json, shutil
+
+          projects=list(Path(".").glob("*.knxproj"))
+          if not projects: raise SystemExit("No .knxproj found")
+          project=projects[0]
+          out=Path("knx-analysis-inventory")
+          if out.exists(): shutil.rmtree(out)
+          out.mkdir()
+
+          with zipfile.ZipFile(project) as z:
+              root=ET.fromstring(z.read("P-07BC/0.xml"))
+              # parent / ancestry map
+              parent={}
+              for p in root.iter():
+                  for c in list(p):
+                      parent[c]=p
+
+          def local(tag): return tag.split("}",1)[-1] if "}" in tag else tag
+          def attrs(e):
+              return {local(k):v for k,v in e.attrib.items()}
+          def nearest(e, wanted):
+              p=parent.get(e)
+              while p is not None:
+                  if local(p.tag) in wanted:
+                      return p
+                  p=parent.get(p)
+              return None
+          def chain(e, wanted):
+              vals={k:[] for k in wanted}
+              p=e
+              seen=set()
+              while p is not None and id(p) not in seen:
+                  seen.add(id(p))
+                  t=local(p.tag)
+                  if t in vals:
+                      vals[t].append(attrs(p))
+                  p=parent.get(p)
+              return vals
+
+          # Device inventory
+          devices=[]
+          for d in root.iter():
+              if local(d.tag)!="DeviceInstance": continue
+              a=attrs(d)
+              ch=chain(d,{"Area","Line","Segment","Space","Node","Installation"})
+              area=(ch["Area"][0] if ch["Area"] else {})
+              line=(ch["Line"][0] if ch["Line"] else {})
+              seg=(ch["Segment"][0] if ch["Segment"] else {})
+              space=(ch["Space"][0] if ch["Space"] else {})
+              node=(ch["Node"][0] if ch["Node"] else {})
+              coms=sum(1 for e in d.iter() if local(e.tag)=="ComObjectInstanceRef")
+              pars=sum(1 for e in d.iter() if local(e.tag)=="ParameterInstanceRef")
+              devices.append([
+                a.get("Id",""),a.get("Address",""),a.get("Name",""),a.get("ProductRefId",""),
+                a.get("Hardware2ProgramRefId",""),a.get("Puid",""),
+                area.get("Address",""),area.get("Number",""),area.get("Name",""),
+                line.get("Address",""),line.get("Number",""),line.get("Name",""),
+                seg.get("Address",""),seg.get("Name",""),space.get("Id",""),space.get("Name",""),
+                node.get("Id",""),node.get("Name",""),coms,pars
+              ])
+          with (out/"DEVICE_INVENTORY.csv").open("w",newline="",encoding="utf-8") as f:
+              w=csv.writer(f); w.writerow(["DeviceId","Address","Name","ProductRefId","Hardware2ProgramRefId","Puid","AreaAddress","AreaNumber","AreaName","LineAddress","LineNumber","LineName","SegmentAddress","SegmentName","SpaceId","SpaceName","NodeId","NodeName","ComObjectRefCount","ParameterRefCount"]); w.writerows(devices)
+
+          # Topology inventory
+          tops=[]
+          for e in root.iter():
+              t=local(e.tag)
+              if t not in {"Area","Line","Segment","Space","Node","Installation","Installations","Topology"}: continue
+              a=attrs(e); ch=chain(e,{"Area","Line","Segment","Space"})
+              area=(ch["Area"][0] if ch["Area"] and t!="Area" else (a if t=="Area" else {}))
+              line=(ch["Line"][0] if ch["Line"] and t!="Line" else (a if t=="Line" else {}))
+              seg=(ch["Segment"][0] if ch["Segment"] and t!="Segment" else (a if t=="Segment" else {}))
+              space=(ch["Space"][0] if ch["Space"] and t!="Space" else (a if t=="Space" else {}))
+              tops.append([t,a.get("Id",""),a.get("Address",""),a.get("Number",""),a.get("Name",""),area.get("Address",""),line.get("Address",""),seg.get("Address",""),space.get("Id",""),space.get("Name",""),json.dumps(a,ensure_ascii=False)])
+          with (out/"TOPOLOGY.csv").open("w",newline="",encoding="utf-8") as f:
+              w=csv.writer(f); w.writerow(["Tag","Id","Address","Number","Name","ParentArea","ParentLine","ParentSegment","ParentSpaceId","ParentSpaceName","Attributes"]); w.writerows(tops)
+
+          # Group address inventory
+          gas=[]
+          for e in root.iter():
+              if local(e.tag)!="GroupAddress": continue
+              a=attrs(e)
+              parents=chain(e,{"GroupRange"})
+              rangeattrs=parents["GroupRange"][0] if parents["GroupRange"] else {}
+              gas.append([a.get("Id",""),a.get("Address",""),a.get("Name",""),a.get("DatapointType",""),rangeattrs.get("Id",""),rangeattrs.get("Name",""),json.dumps(a,ensure_ascii=False)])
+          with (out/"GROUP_ADDRESS_INVENTORY.csv").open("w",newline="",encoding="utf-8") as f:
+              w=csv.writer(f); w.writerow(["GroupAddressId","RawAddress","Name","DatapointType","GroupRangeId","GroupRangeName","Attributes"]); w.writerows(gas)
+
+          # Group object link inventory, nearest DeviceInstance + raw refs
+          links=[]
+          for e in root.iter():
+              if local(e.tag) not in {"ComObjectInstanceRef","GroupObjectInstance"}: continue
+              a=attrs(e)
+              if not any(k in a for k in ["Links","GroupAddressRefId","RefId","Id"]):
+                  continue
+              d=nearest(e,{"DeviceInstance"})
+              links.append([
+                d.attrib.get("Id","") if d is not None else "",
+                d.attrib.get("Address","") if d is not None else "",
+                local(e.tag),
+                a.get("Id",""),a.get("RefId",""),a.get("Links",""),a.get("GroupAddressRefId",""),
+                a.get("ChannelId",""),a.get("DatapointType",""),a.get("Name",""),
+                json.dumps(a,ensure_ascii=False)
+              ])
+          with (out/"GROUP_OBJECT_LINKS.csv").open("w",newline="",encoding="utf-8") as f:
+              w=csv.writer(f); w.writerow(["DeviceId","DeviceAddress","Tag","Id","RefId","Links","GroupAddressRefId","ChannelId","DatapointType","Name","Attributes"]); w.writerows(links)
+
+          # Useful module/application references: list module instances and their ref ids under each device
+          mods=[]
+          for e in root.iter():
+              if local(e.tag)!="ModuleInstance": continue
+              a=attrs(e); d=nearest(e,{"DeviceInstance"})
+              mods.append([
+                d.attrib.get("Id","") if d is not None else "",
+                d.attrib.get("Address","") if d is not None else "",
+                a.get("Id",""),a.get("RefId",""),a.get("Name",""),a.get("RepeatIndex",""),
+                json.dumps(a,ensure_ascii=False)
+              ])
+          with (out/"MODULE_INSTANCES.csv").open("w",newline="",encoding="utf-8") as f:
+              w=csv.writer(f); w.writerow(["DeviceId","DeviceAddress","ModuleId","RefId","Name","RepeatIndex","Attributes"]); w.writerows(mods)
+
+          summary=[
+            "# KNX project inventory extract",
+            f"- Source: {project.name}",
+            f"- DeviceInstance count: {len(devices)}",
+            f"- GroupAddress count: {len(gas)}",
+            f"- Group object/link rows: {len(links)}",
+            f"- ModuleInstance rows: {len(mods)}",
+            "",
+            "Created:",
+            "- DEVICE_INVENTORY.csv",
+            "- TOPOLOGY.csv",
+            "- GROUP_ADDRESS_INVENTORY.csv",
+            "- GROUP_OBJECT_LINKS.csv",
+            "- MODULE_INSTANCES.csv",
+          ]
+          (out/"SUMMARY.md").write_text("\n".join(summary),encoding="utf-8")
+          print("\n".join(summary))
+          PY
+      - name: Commit inventory
+        shell: bash
+        run: |
+          git config user.name "KNX Project Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add knx-analysis-inventory
+          git diff --cached --quiet && exit 0
+          git commit -m "Add KNX device and group-object inventory"
+          git push
