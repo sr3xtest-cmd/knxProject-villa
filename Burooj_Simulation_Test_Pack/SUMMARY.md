@@ -7,8 +7,8 @@ ETS ToolVersion in source: 6.2.7302.0
 ## Source coverage
 - Group addresses: 618
 - Device instances: 56
-- Group addresses linked to at least one DeviceInstance: 0
-- Device-to-Group Address links found: 0
+- Group addresses linked to at least one DeviceInstance: 499
+- Device-to-Group Address links found: 983
 
 ## What this pack does
 Turns the real ETS project database into a simulation-oriented test matrix. It does not rewrite the source project or invent missing device behavior. Use it with KNX Virtual and ETS Group Monitor to exercise Group Addresses and observe telegrams.
