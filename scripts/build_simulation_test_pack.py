@@ -59,8 +59,9 @@ for e in root.iter():
         continue
     did = attrs(d).get("Id","")
     blob = json.dumps(attrs(e), ensure_ascii=False)
-    refs = re.findall(r"P-07BC-0_GA-\d+", blob)
-    for gid in sorted(set(refs)):
+    refs = re.findall(r"GA-\d+", blob)
+    for short in sorted(set(refs)):
+        gid = "P-07BC-0_" + short
         if gid in groups:
             device_ga[did].add(gid)
             ga_devices[gid].add(did)
